@@ -1217,7 +1217,7 @@ ul.list-padded li {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000325}}
 .header-top .header-icons img {
   height: 28px;
-  padding-left: 25%;
+  padding-left: 20%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000332}}
@@ -1248,5 +1248,5 @@ ul.list-padded li {
   display: block;
   color: white;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 14px;
 }
