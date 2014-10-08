@@ -1,0 +1,28 @@
+@import "bourbon/bourbon";
+@import "vars";
+@import "mixins";
+@import "patterns";
+
+
+.site-header{
+  background: $purple;
+}
+.header-top{
+  padding: 2.5%;
+  height: 48px;
+  .rmn-logo{
+    height: 40px;
+    display: block;
+    float: left;
+  }
+  .header-icons{
+    float: right;
+    width: 33%;
+    text-align: right;
+    vertical-align: middle;
+    img{
+      height: 28px;
+      padding-left: 25%;
+    }
+  }
+}
