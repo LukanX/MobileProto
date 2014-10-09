@@ -7,6 +7,15 @@
       <li class="grid-unit centered"><a href="#">preparing to shop</a></li>
     </ul>
   </div>
-    <div class="toggle-content centered" ng-click="isShoppingQueryHidden = !isShoppingQueryHidden" ng-hide="isShoppingQueryHidden">Hide <span>&#9650;</span></div>
+  <div class="toggle-content centered" ng-click="isShoppingQueryHidden = !isShoppingQueryHidden" ng-hide="isShoppingQueryHidden">Hide <span>&#9650;</span></div>
   <div class="toggle-content centered" ng-click="isShoppingQueryHidden = !isShoppingQueryHidden" ng-show="isShoppingQueryHidden">Edit <span>&#x25BC;</span></div>
 </section>
+
+<section class="carousel" ng-controller = "CarouselCtrl">
+  <ul class="image" rn-carousel>
+    <li ng-repeat="deal in carouselDeals" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
+      {{deal.brand}}
+    </li>
+  </ul>
+</section>
+

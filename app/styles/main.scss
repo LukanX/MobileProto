@@ -22,3 +22,14 @@ h1,h2,h3,h4,h5,h6{
 
 // **************** CAROUSEL ****************
 
+.rn-carousel-container{
+  @include maintain-ratio(4 3);
+  ul{
+    width: 100%;
+    height: 100%;
+    li{
+      @include maintain-ratio(4 3);
+      background-size: cover;
+    }
+  }
+}
