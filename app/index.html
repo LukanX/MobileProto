@@ -35,8 +35,17 @@
           <li> <a href="">nearby</a></li>
           <li> <a href="">saved</a></li>
           <li> <a href="">faved</a></li>
-          <li class="drop-target"> <a href=""><img src="images/ellipsis.svg" alt=""></a></li>
+          <li ng-class="{'active' : isNavActive === true}"><a ng-click="isDropNavOpen = !isDropNavOpen; isNavActive = !isNavActive"><img src="images/ellipsis.svg" alt=""></a></li>
         </ul>
+      </div>
+      <div class="sub-menu" ng-show="isDropNavOpen">
+        <div class="container">
+          <ul>
+            <li><a>seasonal</a></li>
+            <li><a>trending</a></li>
+            <li><a>submit a coupon</a></li>
+          </ul>
+        </div>
         
       </div>
     </header>
@@ -71,6 +80,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/header.js"></script>
         <!-- endbuild -->
 </body>
 </html>
