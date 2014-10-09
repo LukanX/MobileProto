@@ -9,8 +9,9 @@
 
 .shopping-locations{
   margin: 0;
+  opacity: 1;
   max-height: 170px;
-  transition: .5s;
+  transition: max-height .5s, opacity .5s .1s;
   li a{
     color: $dark-purple;
     width: 100%;
@@ -22,17 +23,11 @@
     background: white;
     border-radius: $radius;
     margin-top: $spacing;
-    opacity: 1;
-    transition-duration: .5s;
-    transition-delay: .5s;
   }
   &.ng-hide{
     max-height: 0;
+    opacity: 0;
     overflow: hidden;
-    li a{
-      opacity: 0;
-      transition-delay: 1s;
-    }
   }
 }
 

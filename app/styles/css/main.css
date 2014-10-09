@@ -1295,10 +1295,11 @@ ul.list-padded li {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000310}}
 .shopping-locations {
   margin: 0;
+  opacity: 1;
   max-height: 170px;
-  transition: .5s;
+  transition: max-height .5s, opacity .5s .1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000315}}
 .shopping-locations li a {
   color: #4b2354;
   width: 100%;
@@ -1310,22 +1311,15 @@ ul.list-padded li {
   background: white;
   border-radius: 3px;
   margin-top: 1em;
-  opacity: 1;
-  transition-duration: .5s;
-  transition-delay: .5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000327}}
 .shopping-locations.ng-hide {
   max-height: 0;
+  opacity: 0;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000332}}
-.shopping-locations.ng-hide li a {
-  opacity: 0;
-  transition-delay: 1s;
-}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000334}}
 .toggle-content {
   padding: 0 0 0.5em;
   color: rgba(255, 255, 255, 0.6);
@@ -1334,7 +1328,7 @@ ul.list-padded li {
   position: relative;
   z-index: 5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000341}}
 .toggle-content span {
   vertical-align: middle;
   font-size: 50%;
