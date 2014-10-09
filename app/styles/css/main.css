@@ -1350,5 +1350,5 @@ h1.sans-serif, h2.sans-serif, h3.sans-serif, h4.sans-serif, h5.sans-serif, h6.sa
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000363}}
 .hide-content span {
   font-size: 50%;
-  vertical-align: top;
+  vertical-align: 4px;
 }
