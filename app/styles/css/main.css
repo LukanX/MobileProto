@@ -1351,6 +1351,6 @@ h1.sans-serif, h2.sans-serif, h3.sans-serif, h4.sans-serif, h5.sans-serif, h6.sa
 .hide-content span {
   font-size: 50%;
   position: absolute;
-  top: 3px;
+  top: 4px;
   margin-left: 8px;
 }
