@@ -1296,7 +1296,7 @@ ul.list-padded li {
 .shopping-locations {
   margin: 0;
   opacity: 1;
-  max-height: 170px;
+  max-height: 162px;
   transition: max-height .5s, opacity .5s .1s;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000315}}
