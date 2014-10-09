@@ -1342,13 +1342,16 @@ h1.sans-serif, h2.sans-serif, h3.sans-serif, h4.sans-serif, h5.sans-serif, h6.sa
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000358}}
 .hide-content {
-  padding: 0.6666666667em 1em 0.5em;
+  padding: 0 0 0.5em;
   color: rgba(255, 255, 255, 0.6);
   font-weight: bold;
   cursor: pointer;
+  position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000364}}
 .hide-content span {
   font-size: 50%;
-  vertical-align: 4px;
+  position: absolute;
+  top: 3px;
+  margin-left: 8px;
 }
