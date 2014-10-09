@@ -1286,34 +1286,19 @@ ul.list-padded li {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\000033}}
 .shopping-query {
   background: #4b2354;
-  max-height: 1000px;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\000035}}
 .shopping-query h1 {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000314}}
-.shopping-query.ng-hide {
-  max-height: 0;
-  overflow: hidden;
-}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000310}}
 .shopping-locations {
   margin: 0;
+  max-height: 170px;
+  transition: .5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000322}}
-.shopping-locations li {
-  background: white;
-  border-radius: 3px;
-  margin-top: 1em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000314}}
 .shopping-locations li a {
   color: #4b2354;
   width: 100%;
@@ -1322,22 +1307,37 @@ ul.list-padded li {
   padding: 0.6666666667em;
   text-transform: capitalize;
   font-weight: bold;
+  background: white;
+  border-radius: 3px;
+  margin-top: 1em;
+  opacity: 1;
+  transition-duration: .5s;
+  transition-delay: .5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000329}}
+.shopping-locations.ng-hide {
+  max-height: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000332}}
+.shopping-locations.ng-hide li a {
+  opacity: 0;
+  transition-delay: 1s;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000339}}
-.hide-content {
+.toggle-content {
   padding: 0 0 0.5em;
   color: rgba(255, 255, 255, 0.6);
   font-weight: bold;
   cursor: pointer;
   position: relative;
+  z-index: 5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000345}}
-.hide-content span {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_shopping-query\.scss}line{font-family:\0000346}}
+.toggle-content span {
+  vertical-align: middle;
   font-size: 50%;
-  position: absolute;
-  top: 4px;
-  margin-left: 8px;
 }
 
 /* variables */
