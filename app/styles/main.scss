@@ -2,83 +2,66 @@
 @import "vars";
 @import "mixins";
 @import "patterns";
+@import "prototype-modules";
 
+// UTILITIES
+.fixed{
+  position: fixed;
+}
 
-// ********************* HEADER *********************
-.site-header{
-  background: $purple;
-  width: 100%;
+.sans-serif{
+  font-family: $sans-serif;
 }
-.header-top, .header-bottom{
-  height: 48px;
-}
-.header-top{
-  padding: .5em 5%;
-  .rmn-logo{
-    height: 32px;
-    display: block;
-    float: left;
-  }
-  .header-icons{
-    float: right;
-    width: 33%;
-    text-align: right;
-    vertical-align: middle;
-    img{
-      height: 24px;
-      padding-left: 20%;
-      margin-top: 4px;
-    }
+
+h1,h2,h3,h4,h5,h6{ 
+  &.sans-serif{
+    font-weight: bold;
   }
 }
 
-.nav{
-  height: 48px;
+.shopping-query{
+  background: $dark-purple;
+  max-height: 1000px;
+  -webkit-transition: .5s; 
+  -moz-transition: .5s; 
+  -ms-transition: .5s; 
+  -o-transition:.5s; 
+  transition: .5s;
+  h1{
+    color: white;
+    padding: 0 1em;
+  }
+  &.ng-hide{
+    max-height: 0;
+    overflow: hidden;
+  }
+}
+
+.shopping-locations{
+  margin: 0;
   li{
-    display: block;
-    float: left;
-    border: 1px solid $dark-purple;
-    border-left: none;
-    width: 20%;
-    height: 48px;
-    margin: 0;
-    text-align: center;
-    &.active{
-      border-bottom: none;
-    }
-    &:last-child{
-      border-right: none;
-    }
-    img{
-      height: 6px;
-      margin-bottom: 2px;
+    background: white;
+    border-radius: $radius;
+    margin-top: $spacing;
+    padding: $spacing/1.5;
+    text-transform: uppercase;
+    font-weight: bold;
+    a{
+      color: $dark-purple;
+      width: 100%;
+      height: 100%;
+      display: block;
     }
   }
 }
 
-.nav li a, .sub-menu li a{
-  line-height: 48px;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-  font-size: 13px;
-  display: block;
-  color: white;
-  text-transform: uppercase;
+.hide-content{
+  padding: $spacing/1.5 $spacing $spacing/2;
+  color: transparentize(white, .4);
+  font-weight: bold;
   cursor: pointer;
-}
-.sub-menu{
-  position: absolute;
-  left: 0;
-  width: 100%;
-  background: $purple;
-  ul{
-    margin-bottom: 1em;
+  span{
+    font-size: 50%;
+    vertical-align: text-top;
   }
 }
-
-.header-bumper{
-  width: 100%;
-  height: 96px;
-}
-

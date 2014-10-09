@@ -9,9 +9,6 @@
  */
 angular.module('mobileProtoApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.isShoppingQueryHidden = false;
+
   });

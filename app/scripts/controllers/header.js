@@ -12,5 +12,5 @@ angular.module('mobileProtoApp')
 
     $scope.toggleActive = function(){
     	$scope.check = $scope.check === false ? true: false;
-    }
+    };
   });

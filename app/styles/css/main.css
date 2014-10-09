@@ -1186,52 +1186,48 @@ ul.list-padded li {
   padding: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_patterns\/_utilities\.scss}line{font-family:\0000387}}
-.fixed {
-  position: fixed;
-}
-
 /** HEADER **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\000032}}
 .site-header {
   background: #602D6C;
   width: 100%;
+  z-index: 5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\000037}}
 .header-top, .header-bottom {
   height: 48px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000310}}
 .header-top {
   padding: .5em 5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000312}}
 .header-top .rmn-logo {
   height: 32px;
   display: block;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000317}}
 .header-top .header-icons {
   float: right;
   width: 33%;
   text-align: right;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000322}}
 .header-top .header-icons img {
   height: 24px;
   padding-left: 20%;
   margin-top: 4px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000330}}
 .nav {
   height: 48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000332}}
 .nav li {
   display: block;
   float: left;
@@ -1242,21 +1238,21 @@ ul.list-padded li {
   margin: 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000341}}
 .nav li.active {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000344}}
 .nav li:last-child {
   border-right: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000347}}
 .nav li img {
   height: 6px;
   margin-bottom: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000354}}
 .nav li a, .sub-menu li a {
   line-height: 48px;
   vertical-align: middle;
@@ -1269,20 +1265,90 @@ ul.list-padded li {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000365}}
 .sub-menu {
   position: absolute;
   left: 0;
   width: 100%;
   background: #602D6C;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000370}}
 .sub-menu ul {
   margin-bottom: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_mobile-header\.scss}line{font-family:\0000375}}
 .header-bumper {
   width: 100%;
   height: 96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\000038}}
+.fixed {
+  position: fixed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000312}}
+.sans-serif {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000317}}
+h1.sans-serif, h2.sans-serif, h3.sans-serif, h4.sans-serif, h5.sans-serif, h6.sans-serif {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000322}}
+.shopping-query {
+  background: #4b2354;
+  max-height: 1000px;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000330}}
+.shopping-query h1 {
+  color: white;
+  padding: 0 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000334}}
+.shopping-query.ng-hide {
+  max-height: 0;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000340}}
+.shopping-locations {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000342}}
+.shopping-locations li {
+  background: white;
+  border-radius: 3px;
+  margin-top: 1em;
+  padding: 0.6666666667em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000349}}
+.shopping-locations li a {
+  color: #4b2354;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000358}}
+.hide-content {
+  padding: 0.6666666667em 1em 0.5em;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000363}}
+.hide-content span {
+  font-size: 50%;
+  vertical-align: text-top;
 }
