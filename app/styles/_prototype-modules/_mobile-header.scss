@@ -1,13 +1,18 @@
 // ********************* HEADER *********************
 .site-header{
-  background: $purple;
   width: 100%;
 }
 .header-top, .header-bottom{
   height: 48px;
 }
+.header-bottom{
+  background: #6f3f7a;
+  width: 100%;
+}
 .header-top{
   padding: .5em 5%;
+  width: 100%;
+  background: $purple;
   .rmn-logo{
     height: 32px;
     display: block;
