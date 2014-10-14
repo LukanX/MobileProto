@@ -14,11 +14,15 @@
 <section class="carousel" ng-controller = "CarouselCtrl">
   <ul class="image" rn-carousel rn-carousel-indicator='true'>
     <li ng-repeat="deal in carouselDeals" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
-      <div class="deal-info">
+      <div class="deal-info clearfix">
         <div class="logo-wrapper">
           <div class="brand-logo">
             <img ng-src="{{deal.logo}}" alt="">
           </div>
+        </div>
+
+        <div class="deal-details">
+          <h1 class="h3 sans-serif">{{deal.offer}}</h1>
         </div>
       </div>
     </li>

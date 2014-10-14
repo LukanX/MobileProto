@@ -48,6 +48,7 @@ h1,h2,h3,h4,h5,h6{
   }
   .logo-wrapper{
     width: 25%;
+    float: left;
   }
   .brand-logo{
     @include maintain-ratio(1 1);
@@ -57,6 +58,14 @@ h1,h2,h3,h4,h5,h6{
     img{
       @extend %vertical-align;
       padding: $spacing/2;
+    }
+  }
+  .deal-details{
+    float: left;
+    width: 75%;
+    padding-left: $spacing;
+    h1,h2,h3{
+      color: white;
     }
   }
 }
