@@ -63,9 +63,18 @@ h1,h2,h3,h4,h5,h6{
   .deal-details{
     float: left;
     width: 75%;
+    height: 100%;
     padding-left: $spacing;
-    h1,h2,h3{
+    h2, p{
       color: white;
+    }
+    h2.h4{
+      margin-bottom: .25em;;
+    }
+    p{
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 0;
     }
   }
 }
