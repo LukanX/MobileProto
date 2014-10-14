@@ -1,5 +1,6 @@
 [
 	{
+		"id": 1,
 		"brand": "Apple",
 		"bgImage": "images/merchant/apple-bg.jpg",
 		"logo": "images/merchant/apple-logo.jpg",
@@ -7,6 +8,7 @@
 		"location": "in-store & online"
 	},
 	{
+		"id": 2,
 		"brand": "newegg",
 		"bgImage": "images/merchant/newegg-bg.jpg",
 		"logo": "images/merchant/newegg-logo.jpg",

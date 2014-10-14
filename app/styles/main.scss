@@ -25,6 +25,8 @@ h1,h2,h3,h4,h5,h6{
 .rn-carousel-container{
   ul{
     li{
+      position: relative;
+      width: 100%;
       @include maintain-ratio(4 3);
       background-size: cover;
     }

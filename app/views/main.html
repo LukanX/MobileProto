@@ -12,7 +12,7 @@
 </section>
 
 <section class="carousel" ng-controller = "CarouselCtrl">
-  <ul class="image" rn-carousel>
+  <ul class="image" rn-carousel rn-carousel-indicator='true'>
     <li ng-repeat="deal in carouselDeals" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
       {{deal.brand}}
     </li>
