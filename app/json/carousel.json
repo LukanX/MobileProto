@@ -12,7 +12,15 @@
 		"brand": "newegg",
 		"bgImage": "images/merchant/newegg-bg.jpg",
 		"logo": "images/merchant/newegg-logo.jpg",
-		"offer": "10% Off Desktops, Components, and More",
+		"offer": "10% Off Desktops and More",
 		"location": "online"
+	},
+	{
+		"id": 3,
+		"brand": "Finish Line",
+		"bgImage": "images/merchant/finishline-bg.jpg",
+		"logo": "images/merchant/finishline-logo.jpg",
+		"offer": "20% Off Select Running Shoes",
+		"location": "in-store"
 	}
 ]
