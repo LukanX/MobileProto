@@ -51,7 +51,7 @@ $rn-carousel-control-height: 30px;
   span {
     transition: color .2s ease-out;
     padding: 0 5px;
-    color: #333;
+    color: white;
     &:before {
       content: "\25cf";
     }
@@ -62,7 +62,7 @@ $rn-carousel-control-height: 30px;
   }
 
   .active {
-    color: white;
+    color: $green;
   }
 }
 
