@@ -22,5 +22,13 @@
 		"logo": "images/merchant/finishline-logo.jpg",
 		"offer": "20% Off Select Running Shoes",
 		"location": "in-store"
+	},
+	{
+		"id": 4,
+		"brand": "Toshiba",
+		"bgImage": "images/merchant/toshiba-bg.jpg",
+		"logo": "images/merchant/toshiba-logo.png",
+		"offer": "Extra 10% Off $600+ Laptops",
+		"location": "online"
 	}
 ]
