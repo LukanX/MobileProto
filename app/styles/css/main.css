@@ -1663,6 +1663,10 @@ h1.sans-serif, h2.sans-serif, h3.sans-serif, h4.sans-serif, h5.sans-serif, h6.sa
   position: absolute;
   left: 50%;
   top: 50%;
+  -webkit-transfrom: translate(-50%, -50%);
+  -moz-transfrom: translate(-50%, -50%);
+  -ms-transfrom: translate(-50%, -50%);
+  -o-transfrom: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background: #0c8566;
 }
