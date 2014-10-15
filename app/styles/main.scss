@@ -70,7 +70,9 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
-
+.deals{
+  padding-bottom: $spacing;
+}
 
 .deal-type{
   padding-bottom: $spacing/2;
@@ -80,9 +82,16 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
-.deal-info{
+.small-header{
   font-size: 16px;
   line-height: 1.2em;
+}
+
+.small-sub-header{
+  line-height: 1.2em;
+}
+
+.deal-info{
   color: $black;
   padding-bottom: $spacing/2.75;
   span{
@@ -92,5 +101,58 @@ h1,h2,h3,h4,h5,h6{
 
 .expiration, .popularity{
   font-weight: 300;
+}
+
+.value-prop{
+  margin-bottom: $spacing;
+  width: 100%;
+  background: $green;
+  padding: $spacing;
+  color: white;
+  position: relative;
+  &.double{
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .icon-area{
+    width: 10%;
+    float: left;
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+  .text-area{
+    float: left;
+    width: 84.5%;
+    padding: 0 $spacing;
+    .small-header{
+      font-weight: bold;
+      margin-bottom: .25em;
+    }
+  }
+  .chevron{
+    float: left;
+    width: 5.5%;
+  }
+  .top{
+    padding: $spacing;
+    padding-bottom: $spacing*2;
+    background: $green;
+  }
+  .bottom{
+    background: $lighter-green;
+    padding: $spacing;
+    padding-top: $spacing*2;
+  }
+  .or-circle{
+    padding: $spacing*.5;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: $darker-green;
+  }
 }
 

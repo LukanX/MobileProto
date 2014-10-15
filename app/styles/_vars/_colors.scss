@@ -18,6 +18,7 @@ $dark-red                 : darken( $red, 10% );
 
 //== Other Colors
 $green                    : #10B48A;
+$lighter-green						: lighten( $green, 10% );
 $darker-green             : darken( $green, 10% );
 $orange                   : #f16c3d; // Not in use
 $yellow                   : #e7b120;
@@ -32,7 +33,7 @@ $darker-beige             : darken( $dark-beige, 10% ); // .button:hover
 //== Transparents, Whites, Blacks, and Shadows
 $black                    : #222222;
 $lightest-gray						: #ececec; //Used in prototype
-$light-gray								: #C4C4C4;
+$light-gray								: #C4C4C4; //Used in prototype
 $gray                     : #646464; // Ironside Gray
 $white                    : #ffffff;
 $body-text                : $gray;
