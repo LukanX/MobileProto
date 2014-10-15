@@ -3,6 +3,7 @@
 //== Purples
 $purple                   : #602D6C;
 $light-purple             : #784c82;
+$lightest-purple          : #6f3f7a; //Used in prototype
 $dark-purple              : #4b2354;
 $darker-purple            : darken( $dark-purple, 10% );
 $darkest-purple           : darken( $dark-purple, 20% ); // Utility popup a:hover
@@ -30,6 +31,8 @@ $darker-beige             : darken( $dark-beige, 10% ); // .button:hover
 
 //== Transparents, Whites, Blacks, and Shadows
 $black                    : #222222;
+$lightest-gray						: #ececec; //Used in prototype
+$light-gray								: #C4C4C4;
 $gray                     : #646464; // Ironside Gray
 $white                    : #ffffff;
 $body-text                : $gray;

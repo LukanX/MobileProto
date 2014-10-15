@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
+
 %vertical-align {
   position: relative;
   top: 50%;
@@ -28,67 +29,67 @@ h1,h2,h3,h4,h5,h6{
   transform: translateY(-50%);
 }
 
-// **************** CAROUSEL ****************
+//DEAL STRUCTURE (GLOBAL)
+.logo-wrapper{
+  width: 20%;
+  float: left;
+}
 
-.rn-carousel-container{
-  ul{
-    li{
-      position: relative;
-      width: 100%;
-      @include maintain-ratio(4 3);
-      background-size: cover;
-      .gradient{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.25) 60%, rgba(0,0,0,.8) 90%, rgba(0,0,0,1)));
-      }
-    }
-  }
-  .deal-info{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: $spacing;
-    width: 100%;
-  }
-  .logo-wrapper{
-    width: 25%;
-    float: left;
-  }
-  .brand-logo{
+.brand-logo{
     @include maintain-ratio(1 1);
     background: white;
     text-align: center;
     border-radius: $radius;
     img{
       @extend %vertical-align;
-      padding: $spacing/2;
     }
   }
-  .deal-details{
-    float: left;
-    width: 75%;
-    height: 100%;
-    padding-left: $spacing;
-    h2, p{
-      color: white;
-    }
-    h2.h4{
-      margin-bottom: .25em;;
-    }
-    p{
-      font-weight: bold;
-      text-transform: capitalize;
-      margin: 0;
-    }
+
+.deal-details{
+  float: left;
+  width: 80%;
+  height: 100%;
+  padding-left: $spacing;
+}
+
+// DEALS SECTION
+
+.deal-section{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background: $lightest-gray;
+
+  li{
+    background: white;
+    border: 1px solid $light-gray;
+    padding: $spacing;
+  }
+
+  h4{
+    font-weight: normal;
   }
 }
 
-.placeholder{
-  background: $light-purple;
-  width: 100%;
-  height: 300px;
+
+
+.deal-type{
+  padding-bottom: $spacing/2;
+  &.code{
+    color: $green;
+  }
 }
+
+.deal-info{
+  font-size: 16px;
+  line-height: 1.2em;
+  color: $black;
+  padding-bottom: $spacing/2.75;
+  span{
+    font-weight: bold;
+  }
+}
+
+.expiration, .popularity{
+  font-weight: 300;
+}
+
