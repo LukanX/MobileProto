@@ -1658,7 +1658,7 @@ h1.sans-serif, h2.sans-serif, h3.sans-serif, h4.sans-serif, h5.sans-serif, h6.sa
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003148}}
 .value-prop .or-circle {
-  padding: 0.5em;
+  padding: 2.5%;
   border-radius: 100%;
   position: absolute;
   left: 50%;
