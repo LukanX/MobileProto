@@ -113,6 +113,7 @@ h1,h2,h3,h4,h5,h6{
   &.double{
     margin-bottom: 0;
     padding: 0;
+    max-height: 1000px;
   }
   .icon-area{
     width: 10%;
@@ -146,16 +147,17 @@ h1,h2,h3,h4,h5,h6{
     padding-top: $spacing*2;
   }
   .or-circle{
-    padding: 2.5%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
     border-radius: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 50%;
-    -webkit-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    -o-transform: translate(-50%);
-    transform: translate(-50%);
+    right: 0;
+    left: 0;
     margin: auto;
     display: table;
     background: $darker-green;

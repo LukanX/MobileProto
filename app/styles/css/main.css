@@ -1617,57 +1617,59 @@ h1.sans-serif, h2.sans-serif, h3.sans-serif, h4.sans-serif, h5.sans-serif, h6.sa
 .value-prop.double {
   margin-bottom: 0;
   padding: 0;
+  max-height: 1000px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003118}}
 .value-prop .icon-area {
   width: 10%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003121}}
 .value-prop .icon-area img {
   display: block;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003126}}
 .value-prop .text-area {
   float: left;
   width: 84.5%;
   padding: 0 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003130}}
 .value-prop .text-area .small-header {
   font-weight: bold;
   margin-bottom: .25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003135}}
 .value-prop .chevron {
   float: left;
   width: 5.5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003139}}
 .value-prop .top {
   padding: 1em;
   padding-bottom: 2em;
   background: #10B48A;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003144}}
 .value-prop .bottom {
   background: #14e3ae;
   padding: 1em;
   padding-top: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\00003149}}
 .value-prop .or-circle {
-  padding: 2.5%;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  vertical-align: middle;
   border-radius: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-  -o-transform: translate(-50%);
-  transform: translate(-50%);
+  right: 0;
+  left: 0;
   margin: auto;
   display: table;
   background: #0c8566;
