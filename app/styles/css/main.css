@@ -1418,17 +1418,40 @@ ul.list-padded li {
   width: 25%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000369}}
-#carousel-2.rn-carousel-container .favorite-button, #carousel-2.rn-carousel-container .heart-container {
+#carousel-2.rn-carousel-container .favorite-icon-container {
   width: 30%;
   float: right;
   text-align: right;
   padding-left: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000374}}
-#carousel-2.rn-carousel-container .favorite-button img, #carousel-2.rn-carousel-container .heart-container img {
+#carousel-2.rn-carousel-container .favorite-icon-container img {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000377}}
+#carousel-2.rn-carousel-container .favorite-icon-container input[type=checkbox] {
+  position: absolute;
+  left: -99999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000381}}
+#carousel-2.rn-carousel-container .favorite-icon-container input[type=checkbox]:checked + label.heart-circle .filler {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000385}}
+#carousel-2.rn-carousel-container .favorite-icon-container input[type=checkbox]:checked + label.x-circle {
+  background-color: #8C8C82;
+  background-image: url(../../images/white-x.svg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000393}}
+#carousel-2.rn-carousel-container .heart-circle, #carousel-2.rn-carousel-container .x-circle {
+  width: 100%;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border-radius: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000398}}
 #carousel-2.rn-carousel-container .heart-circle {
   width: 100%;
   width: 100%;
@@ -1438,23 +1461,27 @@ ul.list-padded li {
   border-radius: 100%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000385}}
-#carousel-2.rn-carousel-container .heart-circle:hover .filler {
-  width: 100%;
-  height: 100%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003108}}
 #carousel-2.rn-carousel-container .heart-circle img {
   width: 50%;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003113}}
 #carousel-2.rn-carousel-container .heart-circle .filler {
   width: 0%;
   height: 0%;
   background: #E8474A;
   border-radius: 100%;
   transition: all 600ms ease-in-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003122}}
+#carousel-2.rn-carousel-container .x-circle {
+  border: 2px solid #8C8C82;
+  background: white;
+  background-image: url(../../images/gray-x.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\000032}}
