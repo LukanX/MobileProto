@@ -111,9 +111,13 @@ h1,h2,h3,h4,h5,h6{
   color: white;
   position: relative;
   &.double{
-    margin-bottom: 0;
     padding: 0;
     max-height: 1000px;
+    background: none;
+    img{
+      display: block;
+      width: 100%;
+    }
   }
   .icon-area{
     width: 10%;
