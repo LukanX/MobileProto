@@ -15,7 +15,7 @@
   <ul class="image" rn-carousel rn-carousel-indicator='true'>
     <li ng-repeat="deal in carouselDeals" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
       <div class="gradient"></div>
-      <div class="deal-info clearfix">
+      <div class="deal-info-area clearfix">
         <div class="logo-wrapper">
           <div class="brand-logo">
             <img ng-src="{{deal.logo}}" alt="">
@@ -31,10 +31,10 @@
   </ul>
 </section>
 
-<section class="deal-section" id="popular">
+<section class="deal-section padded gray" id="popular">
   <div class="container">
     <h1 class="h1 sans-serif">Popular Top Deals</h1>
-    <h4 class="h4 sans-serif">Based on other RetailMeNot users</h4>
+    <h4 class="h4 sans-serif minor">Based on other RetailMeNot users</h4>
     <ul class="deals grid-row-col-1">
       <li class="clearfix grid-unit">
         <div class="logo-wrapper">
@@ -46,7 +46,7 @@
           <div class="deal-type code">
             Coupon Code
           </div>
-          <div class="deal-info small-header">
+          <div class="deal-info-area small-header">
             <span>Victoria's Secret -</span> Up to $150 Off Online Orders
           </div>
           <div class="expiration">
@@ -61,6 +61,7 @@
 
     <div class="value-prop double">
       <img src="images/location-prop.svg" alt="">
+      <!-- Removed old code and repplaced with image because I couldn't get centering to work and didn't have time to fix it -->
       <!-- <div class="top clearfix">
         <div class="icon-area">
           <img src="images/map-marker.svg" alt="">
@@ -90,6 +91,57 @@
     </div> -->
   </div>
   
+</section>
+
+<section class="carousel favoriting padded off-white">
+  <div class="container">
+    <h1 class="h1 sans-serif centered">Fave More, Save More</h1>
+    <h4 class="h4 sans-serif minor centered">Favoriting more stores saves you more
+cash and makes this page even better!</h4>
+  
+  <ul class="image" rn-carousel>
+    <li class="wide-favorite-card">
+      <div class="deal-info-area clearfix">
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img src="images/merchant/victorias-secret-logo.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="heart-container">
+          <div class="heart-circle">
+            <img src="images/white-heart.svg" alt="">
+            <div class="filler"></div>
+          </div>
+        </div>
+
+        <div class="favorite-button">
+          <img src="images/x-favorite.svg" alt="">
+        </div>
+        
+      </div>
+    </li>
+  </ul>
+
+  </div>
+  
+</section>
+
+<section class="padded gray">
+  <div class="container">
+    <div class="value-prop clearfix">
+      <div class="icon-area">
+        <img src="images/coffee-cup.svg" alt="">
+      </div>
+      <div class="text-area">
+        <div class="small-header">Still looking for deals?</div>
+        <div class="small-sub-header">Try browsing our categories page</div>
+      </div>
+      <div class="chevron">
+        <img src="images/chevron.svg" alt="">
+      </div>
+    </div>
+  </div>
 </section>
 
 

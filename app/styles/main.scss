@@ -17,6 +17,20 @@
 h1,h2,h3,h4,h5,h6{ 
   &.sans-serif{
     font-weight: bold;
+    &.minor{
+      font-weight: normal;
+    }
+  }
+}
+
+section.padded{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  &.gray{
+    background: $lightest-gray;
+  }
+  &.off-white{
+    background: $off-white;
   }
 }
 
@@ -29,142 +43,16 @@ h1,h2,h3,h4,h5,h6{
   transform: translateY(-50%);
 }
 
-//DEAL STRUCTURE (GLOBAL)
-.logo-wrapper{
-  width: 20%;
-  float: left;
+%absolute-center{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
-.brand-logo{
-    @include maintain-ratio(1 1);
-    background: white;
-    text-align: center;
-    border-radius: $radius;
-    img{
-      @extend %vertical-align;
-    }
-  }
+// FAVORITING
 
-.deal-details{
-  float: left;
-  width: 80%;
-  height: 100%;
-  padding-left: $spacing;
-}
 
-// DEALS SECTION
-
-.deal-section{
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background: $lightest-gray;
-
-  li{
-    background: white;
-    border: 1px solid $light-gray;
-    padding: $spacing;
-  }
-
-  h4{
-    font-weight: normal;
-  }
-}
-
-.deals{
-  padding-bottom: $spacing;
-}
-
-.deal-type{
-  padding-bottom: $spacing/2;
-  line-height: .8em;
-  &.code{
-    color: $green;
-  }
-}
-
-.small-header{
-  font-size: 16px;
-  line-height: 1.2em;
-}
-
-.small-sub-header{
-  line-height: 1.2em;
-}
-
-.deal-info{
-  color: $black;
-  padding-bottom: $spacing/2.75;
-  span{
-    font-weight: bold;
-  }
-}
-
-.expiration, .popularity{
-  font-weight: 300;
-}
-
-.value-prop{
-  margin-bottom: $spacing;
-  width: 100%;
-  background: $green;
-  padding: $spacing;
-  color: white;
-  position: relative;
-  &.double{
-    padding: 0;
-    max-height: 1000px;
-    background: none;
-    img{
-      display: block;
-      width: 100%;
-    }
-  }
-  .icon-area{
-    width: 10%;
-    float: left;
-    img{
-      display: block;
-      width: 100%;
-    }
-  }
-  .text-area{
-    float: left;
-    width: 84.5%;
-    padding: 0 $spacing;
-    .small-header{
-      font-weight: bold;
-      margin-bottom: .25em;
-    }
-  }
-  .chevron{
-    float: left;
-    width: 5.5%;
-  }
-  .top{
-    padding: $spacing;
-    padding-bottom: $spacing*2;
-    background: $green;
-  }
-  .bottom{
-    background: $lighter-green;
-    padding: $spacing;
-    padding-top: $spacing*2;
-  }
-  .or-circle{
-    width: 45px;
-    height: 45px;
-    text-align: center;
-    line-height: 45px;
-    vertical-align: middle;
-    border-radius: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    display: table;
-    background: $darker-green;
-  }
-}
 
