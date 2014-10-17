@@ -70,12 +70,14 @@ div.rn-carousel-indicator{
 
 
 
-// ul[rn-carousel].wide-favorite{
-//   position: relative;
-//   margin: 0;
-//   li{
-//     width: 100%;
-//   }
+ul[rn-carousel].wide-favorite{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  @include maintain-ratio(30 13);
+  li{
+    width: 100%;
+  }
   .wide-favorite-card{
     width: 100%;
     border: 1px solid $light-gray;
@@ -92,7 +94,7 @@ div.rn-carousel-indicator{
     color: $black;
     font-weight: bold;
     text-align: center;
-    padding: .5em;
+    padding: .25em;
   }
   .logo-wrapper{
     width: 25%;
@@ -158,4 +160,4 @@ div.rn-carousel-indicator{
     background-repeat: no-repeat;
     background-position: center center;
   }
-// }
+}
