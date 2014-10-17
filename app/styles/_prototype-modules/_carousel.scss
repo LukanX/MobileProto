@@ -1,68 +1,89 @@
-#carousel-1.rn-carousel-container{
-  ul{
-    li{
+
+ul[rn-carousel].deal-carousel{
+  margin: 0;
+  @include maintain-ratio(4 3);
+  li{
+    background-size: fit;
+    .carousel-content{
       position: relative;
       width: 100%;
-      @include maintain-ratio(4 3);
+      height: 100%;
       background-size: cover;
-      .gradient{
+      background-repeat: no-repeat;
+      .deal-info-area{
         position: absolute;
-        top: 0;
         left: 0;
+        bottom: 0;
+        padding: $spacing;
         width: 100%;
-        height: 100%;
-        @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.25) 60%, rgba(0,0,0,.8) 90%, rgba(0,0,0,1)));
+      }
+
+      .brand-logo{
+        img{
+          padding: $spacing/2;
+        }
+      }
+      .deal-details{
+        width: 75%;
+      }
+      .logo-wrapper{
+        width:25%;
+      }
+      .deal-details{
+        h2, p{
+          color: white;
+        }
+        h2.h4{
+          margin-bottom: .25em;;
+        }
+        p{
+          font-weight: bold;
+          text-transform: capitalize;
+          margin: 0;
+        }
       }
     }
-  }
-  .deal-info-area{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: $spacing;
-    width: 100%;
-  }
-
-  .brand-logo{
-    img{
-      padding: $spacing/2;
-    }
-  }
-  .deal-details{
-    width: 75%;
-  }
-  .logo-wrapper{
-    width:25%;
-  }
-  .deal-details{
-    h2, p{
-      color: white;
-    }
-    h2.h4{
-      margin-bottom: .25em;;
-    }
-    p{
-      font-weight: bold;
-      text-transform: capitalize;
-      margin: 0;
+    
+    .gradient{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.25) 60%, rgba(0,0,0,.8) 90%, rgba(0,0,0,1)));
     }
   }
 }
 
-#carousel-2.rn-carousel-container{
-  ul{
-    position: relative;
-    margin: 0;
-
-    li{
-      width: 100%;
-      border: 1px solid $light-gray;
-      background: $white;
-      z-index: 5;
+div.rn-carousel-indicator{
+  text-align: center;
+  background: rgba(0,0,0,1);
+  span{
+    color: white;
+    padding: .25em;
+    &.active{
+      color: $green;
     }
   }
+}
+
+
+
+
+// ul[rn-carousel].wide-favorite{
+//   position: relative;
+//   margin: 0;
+//   li{
+//     width: 100%;
+//   }
+  .wide-favorite-card{
+    width: 100%;
+    border: 1px solid $light-gray;
+    background: $white;
+    z-index: 5;
+  }
   .deal-info-area{
-    padding: $spacing;
+  padding: $spacing;
   }
   .merchant-name-area{
     border-top: 1px solid $light-gray;
@@ -84,7 +105,7 @@
     img{
       display: block;
     }
-    input[type=checkbox]{
+    input[type=radio]{
       position: absolute;
       left: -99999px;
       &:checked {
@@ -137,4 +158,4 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
-}
+// }

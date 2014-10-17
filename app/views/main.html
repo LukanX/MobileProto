@@ -1,6 +1,6 @@
 <section class="shopping-query">
   <div class="container padded-container">
-    <h1 class="centered h1 sans-serif">Where are you shopping today?</h1>
+    <h1 class="centered h1 sans-serif">Where are you shopping?</h1>
     <ul class="shopping-locations grid-row-col-1" ng-hide="isShoppingQueryHidden" >
       <li class="grid-unit centered"><a>in store now</a></li>
       <li class="grid-unit centered"><a>online</a></li>
@@ -12,23 +12,47 @@
 </section>
 
 <section class="carousel" ng-controller = "CarouselCtrl">
-  <ul class="image" rn-carousel rn-carousel-indicator='true'>
-    <li ng-repeat="deal in carouselDeals" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
-      <div class="gradient"></div>
-      <div class="deal-info-area clearfix">
-        <div class="logo-wrapper">
-          <div class="brand-logo">
-            <img ng-src="{{deal.logo}}" alt="">
+  <ul class="image deal-carousel" rn-carousel rn-carousel-index="deals">
+    <li ng-repeat="deal in carouselDeals">
+      <!-- <div class="carousel-content" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
+        <div class="gradient"></div>
+        
+        <div class="deal-info-area clearfix">
+          <div class="logo-wrapper">
+            <div class="brand-logo">
+              <img ng-src="{{deal.logo}}" alt="">
+            </div>
+          </div>
+
+          <div class="deal-details">
+            <h2 class="h4 sans-serif">{{deal.offer}}</h3>
+            <p>{{deal.brand}} {{deal.location}} Offer</p>
+          </div>
+        </div>
+      </div> -->
+      
+      <div class="carousel-content" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
+        <div class="gradient"></div>
+
+        <div class="deal-info-area clearfix">
+          <div class="logo-wrapper">
+            <div class="brand-logo">
+              <img ng-src="{{deal.logo}}" alt="">
+            </div>
+          </div>
+
+          <div class="deal-details">
+            <h2 class="h4 sans-serif">{{deal.offer}}</h3>
+            <p>{{deal.brand}} {{deal.location}} Offer</p>
           </div>
         </div>
 
-        <div class="deal-details">
-          <h2 class="h4 sans-serif">{{deal.offer}}</h3>
-          <p>{{deal.brand}} {{deal.location}} Offer</p>
-        </div>
       </div>
+
+      
     </li>
   </ul>
+  <div rn-carousel-indicators ng-if="carouselDeals.length > 1" slides="carouselDeals" rn-carousel-index="deals"></div>
 </section>
 
 <section class="deal-section padded gray" id="popular">
@@ -101,35 +125,39 @@ cash and makes this page even better!</h4>
   </div>
   
   <div class="container padded-container">
-  <ul class="image" rn-carousel>
-    <li class="wide-favorite-card" ng-repeat="deal in carouselDeals">
-      <div class="deal-info-area clearfix">
-        <div class="logo-wrapper">
-          <div class="brand-logo">
-            <img ng-src="{{deal.logo}}" alt="">
+  <!-- <ul class="image wide-favorite" rn-carousel>
+    <li ng-repeat="deal in carouselDeals"> -->
+      <div class="wide-favorite-card">
+        <div class="deal-info-area clearfix">
+          <div class="logo-wrapper">
+            <div class="brand-logo">
+              <!-- <img ng-src="{{deal.logo}}" alt=""> -->
+              <img src="images/merchant/victorias-secret-logo.jpg" alt="">
+            </div>
           </div>
-        </div>
 
-        <div class="favorite-icon-container">
-          <input type="checkbox" id="heart-{{deal.id}}">
-          <label class="heart-circle" for="heart-{{deal.id}}">
-            <img src="images/white-heart.svg" alt="">
-            <div class="filler"></div>
-          </label>
-        </div>
+          <div class="favorite-icon-container">
+            <input type="radio" name="radio-{{deal.id}}" id="heart-{{deal.id}}">
+            <label class="heart-circle" for="heart-{{deal.id}}">
+              <img src="images/white-heart.svg" alt="">
+              <div class="filler"></div>
+            </label>
+          </div>
 
-        <div class="favorite-icon-container">
-          <input type="checkbox" id="x-{{deal.id}}">
-          <label class="x-circle" for="x-{{deal.id}}"></label>
+          <div class="favorite-icon-container">
+            <input type="radio" name="radio-{{deal.id}}" id="x-{{deal.id}}">
+            <label class="x-circle" for="x-{{deal.id}}"></label>
+          </div>
+          
         </div>
-        
+        <div class="merchant-name-area">
+         <!-- {{deal.brand}} -->
+         Victoria's Secret
+        </div>
       </div>
-      <div class="merchant-name-area">
-       {{deal.brand}}
-      </div>
-    </li>
+<!--     </li>
 
-  </ul>
+  </ul> -->
 
   </div>
   
