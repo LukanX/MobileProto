@@ -93,36 +93,42 @@
   
 </section>
 
-<section class="carousel favoriting padded off-white">
+<section class="carousel favoriting padded off-white" ng-controller="CarouselCtrl">
   <div class="container">
     <h1 class="h1 sans-serif centered">Fave More, Save More</h1>
     <h4 class="h4 sans-serif minor centered">Favoriting more stores saves you more
 cash and makes this page even better!</h4>
+  </div>
   
+  <div class="container padded-container">
   <ul class="image" rn-carousel>
-    <li class="wide-favorite-card">
+    <li class="wide-favorite-card" ng-repeat="deal in carouselDeals">
       <div class="deal-info-area clearfix">
         <div class="logo-wrapper">
           <div class="brand-logo">
-            <img src="images/merchant/victorias-secret-logo.jpg" alt="">
+            <img ng-src="{{deal.logo}}" alt="">
           </div>
         </div>
 
         <div class="favorite-icon-container">
-          <input type="checkbox" id="heart-1">
-          <label class="heart-circle" for="heart-1">
+          <input type="checkbox" id="heart-{{deal.id}}">
+          <label class="heart-circle" for="heart-{{deal.id}}">
             <img src="images/white-heart.svg" alt="">
             <div class="filler"></div>
           </label>
         </div>
 
         <div class="favorite-icon-container">
-          <input type="checkbox" id="x-1">
-          <label class="x-circle" for="x-1"></label>
+          <input type="checkbox" id="x-{{deal.id}}">
+          <label class="x-circle" for="x-{{deal.id}}"></label>
         </div>
         
       </div>
+      <div class="merchant-name-area">
+       {{deal.brand}}
+      </div>
     </li>
+
   </ul>
 
   </div>

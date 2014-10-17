@@ -50,18 +50,28 @@
 }
 
 #carousel-2.rn-carousel-container{
-  padding: $spacing/2;
-  margin: auto;
   ul{
-    width: 100%;
     position: relative;
+    margin: 0;
+
     li{
       width: 100%;
-      padding: $spacing;
       border: 1px solid $light-gray;
       background: $white;
       z-index: 5;
     }
+  }
+  .deal-info-area{
+    padding: $spacing;
+  }
+  .merchant-name-area{
+    border-top: 1px solid $light-gray;
+    width: 100%;
+    font-size: 14px;
+    color: $black;
+    font-weight: bold;
+    text-align: center;
+    padding: .5em;
   }
   .logo-wrapper{
     width: 25%;
