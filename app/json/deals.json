@@ -1,0 +1,136 @@
+[
+	{
+		"merchant": "Apple",
+		"logo": "images/merchant/apple-logo.jpg",
+		"offer": "$50 Off Refurbished Apple Products",
+		"location": "in-store & online",
+		"type": "code",
+		"favorite": true,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 138,
+		"expires": "November 02"
+	},
+	{
+		"merchant": "newegg",
+		"logo": "images/merchant/newegg-logo.jpg",
+		"offer": "10% Off Desktops and More",
+		"location": "online",
+		"type": "sale",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 267,
+		"expires": "October 31"
+	},
+	{
+		"merchant": "Finish Line",
+		"logo": "images/merchant/finishline-logo.jpg",
+		"offer": "20% Off Select Running Shoes",
+		"location": "in-store",
+		"type": "print",
+		"favorite": false,
+		"popular": true,
+		"nearby": true,
+		"numberUsed": 102,
+		"expires": "November 14"
+	},
+	{
+		"merchant": "Toshiba",
+		"logo": "images/merchant/toshiba-logo.png",
+		"offer": "Extra 10% Off $600+ Laptops",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": false,
+		"nearby": true,
+		"numberUsed": 98,
+		"expires": "October 28"
+	},
+	{
+		"merchant": "Kohls",
+		"logo": "images/merchant/kohls-logo.jpg",
+		"offer": "30% Off Sitewide With Kohls Charge + Kohls Cash",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 21739,
+		"expires": "October 27"
+	},
+	{
+		"merchant": "Victoria's Secret",
+		"logo": "images/merchant/victorias-secret-logo.jpg",
+		"offer": "Up To $125 Off $500 Sitewide",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 893,
+		"expires": "October 27"
+	}
+
+	,
+	{
+		"merchant": "newegg",
+		"logo": "images/merchant/newegg-logo.jpg",
+		"offer": "10% Off Desktops and More",
+		"location": "online",
+		"type": "sale",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 267,
+		"expires": "October 31"
+	},
+	{
+		"merchant": "Finish Line",
+		"logo": "images/merchant/finishline-logo.jpg",
+		"offer": "20% Off Select Running Shoes",
+		"location": "in-store",
+		"type": "print",
+		"favorite": false,
+		"popular": true,
+		"nearby": true,
+		"numberUsed": 102,
+		"expires": "November 14"
+	},
+	{
+		"merchant": "Toshiba",
+		"logo": "images/merchant/toshiba-logo.png",
+		"offer": "Extra 10% Off $600+ Laptops",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": false,
+		"nearby": true,
+		"numberUsed": 98,
+		"expires": "October 28"
+	},
+	{
+		"merchant": "Kohls",
+		"logo": "images/merchant/kohls-logo.jpg",
+		"offer": "30% Off Sitewide With Kohls Charge + Kohls Cash",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 21739,
+		"expires": "October 27"
+	},
+	{
+		"merchant": "Victoria's Secret",
+		"logo": "images/merchant/victorias-secret-logo.jpg",
+		"offer": "Up To $125 Off $500 Sitewide",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 893,
+		"expires": "October 27"
+	}
+]

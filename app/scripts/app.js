@@ -22,6 +22,22 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
+        templateUrl: 'views/home.html',
+        controller: 'MainCtrl'
+      })
+      .when('/design1',{
+        templateUrl: 'views/modules.html',
+        controller: 'MainCtrl'
+      })
+      .when('/design2',{
+        templateUrl: 'views/infinite.html',
+        controller: 'MainCtrl'
+      })
+      .when('/design3',{
+        templateUrl: 'views/contextual.html',
+        controller: 'MainCtrl'
+      })
+      .when('/debug',{
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })

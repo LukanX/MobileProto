@@ -8,3 +8,10 @@ mobileProtoServices.factory('Carousel', ['$resource',
       query: {method:'GET', isArray:true}
     });
   }]);
+
+mobileProtoServices.factory('Deals', ['$resource',
+  function($resource){
+    return $resource('json/deals.json', {}, {
+      query: {method:'GET', isArray:true}
+    });
+  }]);

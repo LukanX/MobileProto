@@ -10,5 +10,4 @@
 angular.module('mobileProtoApp')
   .controller('MainCtrl', function ($scope) {
     $scope.isShoppingQueryHidden = false;
-
   });

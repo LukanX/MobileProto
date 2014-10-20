@@ -1432,18 +1432,23 @@ div.rn-carousel-indicator span.active {
   font-size: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\000034}}
+section.deal-carousel {
+  padding-top: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\000037}}
 ul[rn-carousel].deal-carousel {
   margin: 0;
   width: 100%;
   height: 0;
   padding-bottom: 75%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000310}}
 ul[rn-carousel].deal-carousel li {
   background-size: fit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000312}}
 ul[rn-carousel].deal-carousel li .carousel-content {
   position: relative;
   width: 100%;
@@ -1451,7 +1456,7 @@ ul[rn-carousel].deal-carousel li .carousel-content {
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000318}}
 ul[rn-carousel].deal-carousel li .carousel-content .deal-info-area {
   position: absolute;
   left: 0;
@@ -1459,33 +1464,33 @@ ul[rn-carousel].deal-carousel li .carousel-content .deal-info-area {
   padding: 1em;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000327}}
 ul[rn-carousel].deal-carousel li .carousel-content .brand-logo img {
   padding: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000331}}
 ul[rn-carousel].deal-carousel li .carousel-content .deal-details {
   width: 75%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000334}}
 ul[rn-carousel].deal-carousel li .carousel-content .logo-wrapper {
   width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000338}}
 ul[rn-carousel].deal-carousel li .carousel-content .deal-details h2, ul[rn-carousel].deal-carousel li .carousel-content .deal-details p {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000341}}
 ul[rn-carousel].deal-carousel li .carousel-content .deal-details h2.h4 {
   margin-bottom: .25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000344}}
 ul[rn-carousel].deal-carousel li .carousel-content .deal-details p {
   font-weight: bold;
   text-transform: capitalize;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000352}}
 ul[rn-carousel].deal-carousel li .gradient {
   position: absolute;
   top: 0;
@@ -1496,46 +1501,46 @@ ul[rn-carousel].deal-carousel li .gradient {
   background-image: linear-gradient( transparent, rgba(0, 0, 0, 0.25) 60%, rgba(0, 0, 0, 0.8) 90%, black);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000363}}
 div.rn-carousel-indicator {
   text-align: center;
   background: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000366}}
 div.rn-carousel-indicator span {
   color: white;
   padding: .25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000369}}
 div.rn-carousel-indicator span.active {
   color: #10B48A;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000378}}
 ul[rn-carousel].wide-favorite {
   position: relative;
   margin: 0;
   width: 100%;
   width: 100%;
   height: 0;
-  padding-bottom: 40%;
+  padding-bottom: 43.75%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000383}}
 ul[rn-carousel].wide-favorite li {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000386}}
 ul[rn-carousel].wide-favorite .wide-favorite-card {
   width: 100%;
   border: 1px solid #C4C4C4;
   background: #ffffff;
   z-index: 5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000392}}
 ul[rn-carousel].wide-favorite .deal-info-area {
   padding: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000395}}
 ul[rn-carousel].wide-favorite .merchant-name-area {
   border-top: 1px solid #C4C4C4;
   width: 100%;
@@ -1543,39 +1548,39 @@ ul[rn-carousel].wide-favorite .merchant-name-area {
   color: #222222;
   font-weight: bold;
   text-align: center;
-  padding: .24em;
+  padding: .25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003104}}
 ul[rn-carousel].wide-favorite .logo-wrapper {
   width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003107}}
 ul[rn-carousel].wide-favorite .favorite-icon-container {
   width: 30%;
   float: right;
   text-align: right;
   padding-left: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003112}}
 ul[rn-carousel].wide-favorite .favorite-icon-container img {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003115}}
 ul[rn-carousel].wide-favorite .favorite-icon-container input[type=radio] {
   position: absolute;
   left: -99999px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003119}}
 ul[rn-carousel].wide-favorite .favorite-icon-container input[type=radio]:checked + label.heart-circle .filler {
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003123}}
 ul[rn-carousel].wide-favorite .favorite-icon-container input[type=radio]:checked + label.x-circle {
   background-color: #8C8C82;
   background-image: url(../../images/white-x.svg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003131}}
 ul[rn-carousel].wide-favorite .heart-circle, ul[rn-carousel].wide-favorite .x-circle {
   width: 100%;
   width: 100%;
@@ -1583,7 +1588,7 @@ ul[rn-carousel].wide-favorite .heart-circle, ul[rn-carousel].wide-favorite .x-ci
   padding-bottom: 100%;
   border-radius: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003136}}
 ul[rn-carousel].wide-favorite .heart-circle {
   width: 100%;
   width: 100%;
@@ -1593,12 +1598,12 @@ ul[rn-carousel].wide-favorite .heart-circle {
   border-radius: 100%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003146}}
 ul[rn-carousel].wide-favorite .heart-circle img {
   width: 50%;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003151}}
 ul[rn-carousel].wide-favorite .heart-circle .filler {
   width: 0%;
   height: 0%;
@@ -1606,7 +1611,7 @@ ul[rn-carousel].wide-favorite .heart-circle .filler {
   border-radius: 100%;
   transition: all 600ms ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003160}}
 ul[rn-carousel].wide-favorite .x-circle {
   border: 2px solid #8C8C82;
   background: white;
@@ -1616,7 +1621,7 @@ ul[rn-carousel].wide-favorite .x-circle {
   background-position: center center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003171}}
 ul[rn-carousel].tall-favorite {
   width: 100%;
   margin: 0;
@@ -1625,19 +1630,19 @@ ul[rn-carousel].tall-favorite {
   height: 0;
   padding-bottom: 55.5555555556%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003176}}
 ul[rn-carousel].tall-favorite li {
   width: 47.5%;
   padding-right: 2.5%;
   color: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003180}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper {
   width: 100%;
   background: #ffffff;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003184}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay {
   width: 100%;
   height: 100%;
@@ -1647,12 +1652,12 @@ ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay {
   left: 0;
   transition: top .5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003192}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay.ng-hide {
   top: 101%;
   display: block !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003196}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-top {
   width: 100%;
   width: 100%;
@@ -1664,7 +1669,7 @@ ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-top {
   background-size: 25%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003204}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-top .signup-text {
   position: absolute;
   bottom: 0;
@@ -1675,30 +1680,30 @@ ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-top .
   line-height: 1em;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003213}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-top .signup-text .small-header {
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003217}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-top .x-out {
   position: absolute;
   top: .5em;
   right: .5em;
   width: 8%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003222}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-top .x-out img {
   width: 100%;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003228}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-bottom {
   width: 100%;
   border: 1px solid #259fc4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003231}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-bottom .divider {
-  padding: 3.4% 2%;
+  padding: 2.4% 2%;
   width: 50%;
   float: left;
   text-align: center;
@@ -1706,12 +1711,12 @@ ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-botto
   font-size: 14px;
   color: #259fc4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003239}}
 ul[rn-carousel].tall-favorite li .merchant-wrapper .signup-overlay .signup-bottom .divider.primary {
   background: #259fc4;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003247}}
 ul[rn-carousel].tall-favorite li .merchant-top {
   width: 100%;
   position: relative;
@@ -1724,7 +1729,7 @@ ul[rn-carousel].tall-favorite li .merchant-top {
   background-repeat: no-repeat;
   background-position: center 40%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003256}}
 ul[rn-carousel].tall-favorite li .merchant-top .merchant-name {
   width: 100%;
   position: absolute;
@@ -1733,25 +1738,25 @@ ul[rn-carousel].tall-favorite li .merchant-top .merchant-name {
   padding: 5%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003265}}
 ul[rn-carousel].tall-favorite li .merchant-bottom {
   width: 100%;
   border: 1px solid #C4C4C4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003268}}
 ul[rn-carousel].tall-favorite li .merchant-bottom .divider {
   padding: 3.5%;
   width: 50%;
   float: left;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003273}}
 ul[rn-carousel].tall-favorite li .merchant-bottom .divider img {
   display: block;
   width: 33%;
   margin: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003278}}
 ul[rn-carousel].tall-favorite li .merchant-bottom .divider.x {
   border-right: 1px solid #C4C4C4;
 }
@@ -1785,55 +1790,78 @@ ul[rn-carousel].tall-favorite li .merchant-bottom .divider.x {
 .deal-section li {
   background: white;
   border: 1px solid #C4C4C4;
+  border-bottom: none;
   padding: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000333}}
+.deal-section li:last-child {
+  border-bottom: 1px solid #C4C4C4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000336}}
 .deal-section li .deal-info-area {
   padding: 0;
   color: #222222;
   padding-bottom: 0.3636363636em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000340}}
 .deal-section li .deal-info-area span {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000346}}
 .deal-section h4 {
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000347}}
-.deals {
-  padding-bottom: 1em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000354}}
+.view-more {
+  border: 1px solid #C4C4C4;
+  border-top: none;
+  width: 100%;
+  background-color: #f9f9f9;
+  color: #259fc4;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  padding: .5em;
+  margin-top: -1.5em;
+  margin-bottom: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000368}}
 .deal-type {
   padding-bottom: 0.5em;
   line-height: .8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000371}}
 .deal-type.code {
   color: #10B48A;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000374}}
+.deal-type.sale {
+  color: #f16c3d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000377}}
+.deal-type.print {
+  color: #c22a72;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000382}}
 .small-header {
   font-size: 16px;
   line-height: 1.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000387}}
 .small-sub-header {
   line-height: 1.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000391}}
 .expiration, .popularity {
   font-weight: 300;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000395}}
 .value-prop {
   margin-bottom: 1em;
   width: 100%;
@@ -1842,39 +1870,39 @@ ul[rn-carousel].tall-favorite li .merchant-bottom .divider.x {
   color: white;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003102}}
 .value-prop.double {
   padding: 0;
   max-height: 1000px;
   background: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003106}}
 .value-prop.double img {
   display: block;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003111}}
 .value-prop .icon-area {
   width: 10%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003114}}
 .value-prop .icon-area img {
   display: block;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003119}}
 .value-prop .text-area {
   float: left;
   width: 85%;
   padding: 0 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003123}}
 .value-prop .text-area .small-header {
   font-weight: bold;
   margin-bottom: .25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\00003128}}
 .value-prop .chevron {
   float: left;
   width: 5%;
@@ -1899,21 +1927,21 @@ h1.sans-serif.minor, h2.sans-serif.minor, h3.sans-serif.minor, h4.sans-serif.min
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000328}}
 section.padded {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000330}}
-section.padded.gray {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000332}}
+section.gray {
   background: #ececec;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000333}}
-section.padded.off-white {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000335}}
+section.off-white {
   background: #f9f9f9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/main\.scss}line{font-family:\0000349}}
 ul[rn-carousel].wide-favorite .heart-circle img, ul[rn-carousel].wide-favorite .heart-circle .filler, .brand-logo img {
   position: absolute;
   top: 0;

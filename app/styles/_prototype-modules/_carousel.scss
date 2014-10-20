@@ -1,5 +1,9 @@
 
 // DEAL CAROUSEL
+
+section.deal-carousel{
+  padding-top: 1em;
+}
 ul[rn-carousel].deal-carousel{
   margin: 0;
   @include maintain-ratio(4 3);
@@ -75,7 +79,7 @@ ul[rn-carousel].wide-favorite{
   position: relative;
   margin: 0;
   width: 100%;
-  @include maintain-ratio(5 2);
+  @include maintain-ratio(16 7);
   li{
     width: 100%;
   }
@@ -95,7 +99,7 @@ ul[rn-carousel].wide-favorite{
     color: $black;
     font-weight: bold;
     text-align: center;
-    padding: .24em;
+    padding: .25em;
   }
   .logo-wrapper{
     width: 25%;
@@ -225,7 +229,7 @@ ul[rn-carousel].tall-favorite{
           width: 100%;
           border: 1px solid $blue;
           .divider{
-            padding: 3.4% 2%;
+            padding: 2.4% 2%;
             width: 50%;
             float: left;
             text-align: center;
