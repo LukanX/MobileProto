@@ -75,7 +75,7 @@ ul[rn-carousel].wide-favorite{
   position: relative;
   margin: 0;
   width: 100%;
-  @include maintain-ratio(12 5);
+  @include maintain-ratio(5 2);
   li{
     width: 100%;
   }
@@ -95,7 +95,7 @@ ul[rn-carousel].wide-favorite{
     color: $black;
     font-weight: bold;
     text-align: center;
-    padding: .25em;
+    padding: .24em;
   }
   .logo-wrapper{
     width: 25%;
@@ -168,7 +168,7 @@ ul[rn-carousel].tall-favorite{
   width: 100%;
   margin: 0;
   overflow: hidden;
-  @include maintain-ratio(120 67);
+  @include maintain-ratio(9 5);
   li{
     width: 47.5%;
     padding-right: 2.5%;
@@ -225,7 +225,7 @@ ul[rn-carousel].tall-favorite{
           width: 100%;
           border: 1px solid $blue;
           .divider{
-            padding: 3.5% 2%;
+            padding: 3.4% 2%;
             width: 50%;
             float: left;
             text-align: center;
