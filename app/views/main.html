@@ -137,7 +137,7 @@ cash and makes this page even better!</h4>
           </div>
 
           <div class="favorite-icon-container">
-            <input type="radio" name="radio-{{deal.id}}" id="heart-{{deal.id}}">
+            <input type="radio" name="radio-{{deal.id}}" id="heart-{{deal.id}}" ng-click="delayNextSlide()">
             <label class="heart-circle" for="heart-{{deal.id}}">
               <img src="images/white-heart.svg" alt="">
               <div class="filler"></div>
@@ -177,6 +177,37 @@ cash and makes this page even better!</h4>
         <img src="images/chevron.svg" alt="">
       </div>
     </div>
+  </div>
+</section>
+
+<section class="carousel favoriting padded off-white" ng-controller="CarouselCtrl">
+  <div class="container">
+    <h1 class="h1 sans-serif centered">Fave More, Save More</h1>
+    <h4 class="h4 sans-serif minor centered">Favoriting more stores saves you more
+cash and makes this page even better!</h4>
+  </div>
+
+  <div class="container">
+    <ul class="image tall-favorite" rn-carousel>
+      <li ng-repeat="deal in carouselDeals">
+        <div class="merchant-wrapper">
+          <div class="merchant-top" ng-style="{ 'background-image': 'url(' + deal.logo + ')' }">
+            <div class="merchant-name centered">{{deal.brand}}</div>
+          </div>
+          <div class="merchant-bottom clearfix">
+            <div class="divider x">
+              <img src="images/gray-x.svg" alt="">
+            </div>
+            <div class="divider favorite" ng-click="isHeartActive = !isHeartActive">
+              <img ng-hide="isHeartActive" src="images/white-heart.svg" alt="">
+              <img ng-show="isHeartActive" src="images/red-heart.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+    
   </div>
 </section>
 
