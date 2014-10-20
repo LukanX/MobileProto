@@ -205,6 +205,10 @@ ul[rn-carousel].tall-favorite{
             width: 100%;
             text-align: center;
             line-height: 1em;
+            font-size: 14px;
+            .small-header{
+              font-size: 14px;
+            }
           }
           .x-out{
             position: absolute;
@@ -221,11 +225,12 @@ ul[rn-carousel].tall-favorite{
           width: 100%;
           border: 1px solid $blue;
           .divider{
-            padding: 3.5%;
+            padding: 3.5% 2%;
             width: 50%;
             float: left;
             text-align: center;
             font-weight: bold;
+            font-size: 14px;
             color: $blue;
             &.primary{
               background: $blue;
