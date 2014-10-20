@@ -198,13 +198,23 @@ cash and makes this page even better!</h4>
             <div class="divider x">
               <img src="images/gray-x.svg" alt="">
             </div>
-            <div class="divider favorite" ng-click="isHeartActive = !isHeartActive">
+            <div class="divider favorite" ng-click="isHeartActive = !isHeartActive; favorited = true">
               <img ng-hide="isHeartActive" src="images/white-heart.svg" alt="">
               <img ng-show="isHeartActive" src="images/red-heart.svg" alt="">
             </div>
           </div>
-          <div class="signup-overlay">
-            <div class="signup-top"></div>
+          <div class="signup-overlay" ng-show="!signedUp && favorited">
+            <div class="signup-top">
+              <div class="x-out" ng-click="signedUp = true"><img src="images/gray-x.svg" alt=""></div>
+              <div class="signup-text">
+                <div class="small-header"><strong>Just so you know</strong></div>
+                <div>These are only temporary until you're a member</div>
+              </div>
+            </div>
+            <div class="signup-bottom clearfix">
+              <div class="divider" ng-click="signedUp = true">Sign In</div>
+              <div class="divider primary" ng-click="signedUp = true">Sign Up</div>
+            </div>
           </div>
         </div>
       </li>

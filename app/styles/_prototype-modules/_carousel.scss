@@ -75,7 +75,7 @@ ul[rn-carousel].wide-favorite{
   position: relative;
   margin: 0;
   width: 100%;
-  @include maintain-ratio(30 13);
+  @include maintain-ratio(5 2);
   li{
     width: 100%;
   }
@@ -172,9 +172,9 @@ ul[rn-carousel].tall-favorite{
   li{
     width: 47.5%;
     padding-right: 2.5%;
+    color: $black;
     .merchant-wrapper{
       width: 100%;
-      border: 1px solid $light-gray;
       background: $white;
       position: relative;
       .signup-overlay{
@@ -182,18 +182,64 @@ ul[rn-carousel].tall-favorite{
         height: 100%;
         position: absolute;
         background: $white;
-        top:0;
+        top:0%;
         left:0;
+        transition: top .5s;
+        &.ng-hide{
+          top: 101%;
+          display:block!important;
+        }
         .signup-top{
           width: 100%;
           @include maintain-ratio(1 1);
-          background: url()
+          background: url(../../images/watch.svg) no-repeat center 20%;
+          border: 1px solid $light-gray;
+          border-bottom: none;
+          background-size: 33%;
+          position: relative;
+          .signup-text{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 5% 2%;
+            width: 100%;
+            text-align: center;
+            line-height: 1em;
+          }
+          .x-out{
+            position: absolute;
+            top: .5em;
+            right: .5em;
+            width: 8%;
+            img{
+              width: 100%;
+              display: block;
+            }
+          }
+        }
+        .signup-bottom{
+          width: 100%;
+          border: 1px solid $blue;
+          .divider{
+            padding: 3.5%;
+            width: 50%;
+            float: left;
+            text-align: center;
+            font-weight: bold;
+            color: $blue;
+            &.primary{
+              background: $blue;
+              color: white;
+            }
+          }
         }
       }
     }
     .merchant-top{
       width: 100%;
       position: relative;
+      border: 1px solid $light-gray;
+      border-bottom: none;
       @include maintain-ratio(1 1);
       background-size: 60%;
       background-repeat: no-repeat;
@@ -205,14 +251,13 @@ ul[rn-carousel].tall-favorite{
         left: 0;
         padding: 5%;
         text-align: center;
-        color: $black;
       }
     }
     .merchant-bottom{
       width: 100%;
-      border-top: 1px solid $light-gray;
+      border: 1px solid $light-gray;
       .divider{
-        padding: .5em;
+        padding: 3.5%;
         width: 50%;
         float: left;
         text-align: center;

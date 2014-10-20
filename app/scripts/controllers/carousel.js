@@ -11,5 +11,7 @@ angular.module('mobileProtoApp')
   .controller('CarouselCtrl', ['$scope','Carousel',
    function ($scope, Carousel) {
     $scope.carouselDeals = Carousel.query();
+    $scope.signedUp = false;
+    $scope.favorited = false;
 
   }]);
