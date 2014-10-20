@@ -39,6 +39,7 @@
     <!-- DEAL CODE -->
     <ul class="deals grid-row-col-1">
       <li class="clearfix grid-unit" ng-repeat="deal in popularDeals = (deals | filter: {popular:true} | limitTo: viewLimit)">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
         <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
         <div class="logo-wrapper">
           <div class="brand-logo">
@@ -61,6 +62,7 @@
             {{deal.numberUsed}} People Used Today
           </div>
         </div>
+        </a>
       </li>
     </ul>
     <div class="view-more" ng-click="viewLimit = viewLimit+4" ng-hide="viewLimit > popularDeals.length">View More</div>
