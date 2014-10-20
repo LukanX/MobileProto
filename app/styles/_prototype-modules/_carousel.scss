@@ -192,10 +192,10 @@ ul[rn-carousel].tall-favorite{
         .signup-top{
           width: 100%;
           @include maintain-ratio(1 1);
-          background: url(../../images/watch.svg) no-repeat center 20%;
+          background: url(../../images/watch.svg) no-repeat center 15%;
           border: 1px solid $light-gray;
           border-bottom: none;
-          background-size: 33%;
+          background-size: 25%;
           position: relative;
           .signup-text{
             position: absolute;
