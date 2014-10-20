@@ -1518,7 +1518,7 @@ ul[rn-carousel].wide-favorite {
   width: 100%;
   width: 100%;
   height: 0;
-  padding-bottom: 40%;
+  padding-bottom: 41.6666666667%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\0000379}}
 ul[rn-carousel].wide-favorite li {
@@ -1623,7 +1623,7 @@ ul[rn-carousel].tall-favorite {
   overflow: hidden;
   width: 100%;
   height: 0;
-  padding-bottom: 55.5555555556%;
+  padding-bottom: 55.8333333333%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003172}}
 ul[rn-carousel].tall-favorite li {

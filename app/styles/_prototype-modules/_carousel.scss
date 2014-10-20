@@ -75,7 +75,7 @@ ul[rn-carousel].wide-favorite{
   position: relative;
   margin: 0;
   width: 100%;
-  @include maintain-ratio(5 2);
+  @include maintain-ratio(12 5);
   li{
     width: 100%;
   }
@@ -168,7 +168,7 @@ ul[rn-carousel].tall-favorite{
   width: 100%;
   margin: 0;
   overflow: hidden;
-  @include maintain-ratio(9 5);
+  @include maintain-ratio(120 67);
   li{
     width: 47.5%;
     padding-right: 2.5%;
