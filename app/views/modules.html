@@ -49,7 +49,7 @@
           <div class="deal-info-area small-header">
             <span>{{deal.merchant}} -</span> {{deal.offer}}
           </div>
-          <div class="expiration">
+          <div class="expiration" ng-hide="!deal.expires">
             Ends {{deal.expires}}
           </div>
           <div class="popularity">
@@ -167,7 +167,7 @@ cash and makes this page even better!</h4>
           <div class="deal-info-area small-header">
             <span>{{deal.merchant}} -</span> {{deal.offer}}
           </div>
-          <div class="expiration">
+          <div class="expiration" ng-hide="!deal.expires">
             Ends {{deal.expires}}
           </div>
           <div class="popularity">

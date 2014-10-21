@@ -1880,6 +1880,11 @@ ul[rn-carousel].tall-favorite li .merchant-bottom .divider.x {
   font-weight: normal;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000366}}
+.deals {
+  margin-top: 1.5em;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_deal-tiles\.scss}line{font-family:\0000369}}
 .view-more {
   border: 1px solid #C4C4C4;

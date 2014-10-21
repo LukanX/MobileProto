@@ -26,6 +26,195 @@
   <div rn-carousel-indicators ng-if="carouselDeals.length > 1" slides="carouselDeals" rn-carousel-index="deals"></div>
 </section>
 
+<section class="deal-section padded gray" id="favorites" ng-controller="FavoritesCtrl">
+  <div class="container">
+    <h1 class="h1 sans-serif">Your Top Deals</h1>
+    <h4 class="h4 sans-serif minor">Based on your favorites and history</h4>
+
+    <!-- DEAL CODE -->
+    <ul class="deals grid-row-col-1">
+      <li class="clearfix grid-unit" ng-repeat="deal in favorites | limitTo: 4">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
+        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img ng-src="{{deal.logo}}" alt="">
+          </div>
+        </div>
+        <div class="deal-details">
+          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
+            <span ng-switch-when="code">Coupon Code</span>
+            <span ng-switch-when="print">Printable Coupon</span>
+            <span ng-switch-when="sale">Sale</span>
+          </div>
+          <div class="deal-info-area small-header">
+            <span>{{deal.merchant}} -</span> {{deal.offer}}
+          </div>
+          <div class="expiration" ng-hide="!deal.expires">
+            Ends {{deal.expires}}
+          </div>
+          <div class="popularity">
+            {{deal.numberUsed}} People Used Today
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="carousel favoriting top-padded off-white" ng-controller="CarouselCtrl">
+  <div class="container">
+    <h1 class="h1 sans-serif centered">Fave More, Save More</h1>
+    <h4 class="h4 sans-serif minor centered">Favoriting more stores saves you more
+cash and makes this page even better!</h4>
+  </div>
+  
+
+  <ul class="image wide-favorite" rn-carousel rn-carousel-controls>
+    <li ng-repeat="deal in carouselDeals">
+      <div class="wide-favorite-card">
+        <div class="deal-info-area clearfix">
+          <div class="logo-wrapper">
+            <div class="brand-logo">
+              <img ng-src="{{deal.logo}}" alt="">
+              <!-- <img src="images/merchant/victorias-secret-logo.jpg" alt=""> -->
+            </div>
+          </div>
+
+          <div class="favorite-icon-container">
+            <input type="radio" name="radio-{{deal.id}}" id="heart-{{deal.id}}" ng-click="delayNextSlide()">
+            <label class="heart-circle" for="heart-{{deal.id}}">
+              <img src="images/white-heart.svg" alt="">
+              <div class="filler"></div>
+            </label>
+          </div>
+
+          <div class="favorite-icon-container">
+            <input type="radio" name="radio-{{deal.id}}" id="x-{{deal.id}}">
+            <label class="x-circle" for="x-{{deal.id}}"></label>
+          </div>
+          
+        </div>
+        <div class="merchant-name-area">
+         {{deal.brand}}
+         <!-- Victoria's Secret -->
+        </div>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+<section class="deal-section padded gray" id="favorites" ng-controller="FavoritesCtrl">
+  <div class="container">
+    <h1 class="h1 sans-serif">More Top Deals</h1>
+    <h4 class="h4 sans-serif minor">Based on your favorites and history</h4>
+
+    <!-- DEAL CODE -->
+    <ul class="deals grid-row-col-1">
+      <li class="clearfix grid-unit" ng-repeat="deal in favorites | limitTo: 8 | limitTo: -4">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
+        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img ng-src="{{deal.logo}}" alt="">
+          </div>
+        </div>
+        <div class="deal-details">
+          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
+            <span ng-switch-when="code">Coupon Code</span>
+            <span ng-switch-when="print">Printable Coupon</span>
+            <span ng-switch-when="sale">Sale</span>
+          </div>
+          <div class="deal-info-area small-header">
+            <span>{{deal.merchant}} -</span> {{deal.offer}}
+          </div>
+          <div class="expiration" ng-hide="!deal.expires">
+            Ends {{deal.expires}}
+          </div>
+          <div class="popularity">
+            {{deal.numberUsed}} People Used Today
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="padded off-white">
+  <div class="container">
+    <div class="value-prop clearfix">
+      <div class="icon-area">
+        <img src="images/map-marker.svg" alt="">
+      </div>
+      <div class="text-area">
+        <div class="small-header">We can't find you!</div>
+        <div class="small-sub-header">Turn on location to get nearby offers</div>
+      </div>
+      <div class="chevron">
+        <img src="images/chevron.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="deal-section padded gray" id="favorites" ng-controller="FavoritesCtrl">
+  <div class="container">
+    <h1 class="h1 sans-serif">Even More Top Deals</h1>
+    <h4 class="h4 sans-serif minor">Based on your favorites and history</h4>
+
+    <!-- DEAL CODE -->
+    <ul class="deals grid-row-col-1">
+      <li class="clearfix grid-unit" ng-repeat="deal in favorites | limitTo: 12 | limitTo: -4">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
+        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img ng-src="{{deal.logo}}" alt="">
+          </div>
+        </div>
+        <div class="deal-details">
+          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
+            <span ng-switch-when="code">Coupon Code</span>
+            <span ng-switch-when="print">Printable Coupon</span>
+            <span ng-switch-when="sale">Sale</span>
+          </div>
+          <div class="deal-info-area small-header">
+            <span>{{deal.merchant}} -</span> {{deal.offer}}
+          </div>
+          <div class="expiration" ng-hide="!deal.expires">
+            Ends {{deal.expires}}
+          </div>
+          <div class="popularity">
+            {{deal.numberUsed}} People Used Today
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="padded off-white">
+  <div class="container">
+    <div class="value-prop clearfix">
+      <div class="icon-area">
+        <img src="images/phone-outline.svg" alt="">
+      </div>
+      <div class="text-area">
+        <div class="small-header">Download our FREE app!</div>
+        <div class="small-sub-header">Get notified about nearby offers</div>
+      </div>
+      <div class="chevron">
+        <img src="images/chevron.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="deal-section padded gray" id="infinite-scroll">
   <div class="container">
     <h1 class="h1 sans-serif" ng-switch on="whereShopping">More Deals</h1>
@@ -50,7 +239,7 @@
           <div class="deal-info-area small-header">
             <span>{{deal.merchant}} -</span> {{deal.offer}}
           </div>
-          <div class="expiration">
+          <div class="expiration" ng-hide="!deal.expires">
             Ends {{deal.expires}}
           </div>
           <div class="popularity">
@@ -60,5 +249,22 @@
         </a>
       </li>
     </ul>
+  </div>
+</section>
+
+<section class="padded off-white">
+  <div class="container">
+    <div class="value-prop clearfix">
+      <div class="icon-area">
+        <img src="images/coffee-cup.svg" alt="">
+      </div>
+      <div class="text-area">
+        <div class="small-header">Still looking for deals?</div>
+        <div class="small-sub-header">Try browsing our categories page</div>
+      </div>
+      <div class="chevron">
+        <img src="images/chevron.svg" alt="">
+      </div>
+    </div>
   </div>
 </section>

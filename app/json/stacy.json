@@ -1,5 +1,30 @@
 [
 	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "Free Shipping Over $35 On Select Items Sold & Shipped By Amazon",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1988,
+  "expires": ""
+	},
+	{
+		"merchant": "Apple",
+		"logo": "images/merchant/apple-logo.jpg",
+		"offer": "$50 Off Refurbished Apple Products",
+		"location": "in-store & online",
+		"type": "code",
+		"favorite": false,
+		"popular": true,
+		"nearby": true,
+		"numberUsed": 138,
+		"expires": "November 02",
+		"distance": 1.2
+	},
+	{
 		"merchant": "newegg",
 		"logo": "images/merchant/newegg-logo.jpg",
 		"offer": "10% Off Desktops and More",
@@ -10,6 +35,19 @@
 		"nearby": false,
 		"numberUsed": 267,
 		"expires": "October 31"
+	},
+	{
+		"merchant": "Target",
+		"logo": "images/merchant/target-logo.jpg",
+		"offer": "$5 Off $50 Select Items + Free Shipping On Select Orders of $50",
+		"location": "in-store & online",
+		"type": "sale",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 4220,
+		"distance": 0.6,
+		"expires": "November 14"
 	},
 	{
 		"merchant": "Finish Line",
@@ -35,5 +73,79 @@
 		"nearby": false,
 		"numberUsed": 98,
 		"expires": "October 28"
+	},
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "Fall Outlet Event: Up To 70% Off Thousands of Items",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 2414,
+  "expires": ""
+	},
+	{
+		"merchant": "Kohls",
+		"logo": "images/merchant/kohls-logo.jpg",
+		"offer": "30% Off Sitewide With Kohls Charge + Kohls Cash",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 21739,
+		"expires": "October 27"
+	},
+	{
+  "merchant": "Target",
+  "logo": "images/merchant/target-logo.jpg",
+  "offer": "$10 Off $50+ Home",
+  "location": "online",
+  "type": "code",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 2246,
+  "distance": 2.2,
+  "expires": "November 08"
+	},
+	{
+		"merchant": "Victoria's Secret",
+		"logo": "images/merchant/victorias-secret-logo.jpg",
+		"offer": "Up To $125 Off $500 Sitewide",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 893,
+		"expires": "October 27"
+	},
+	{
+  "merchant": "Target",
+  "logo": "images/merchant/target-logo.jpg",
+  "offer": "$5 Off %50+ Baby Products",
+  "location": "in-store & online code",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 691,
+  "distance": 2.2,
+  "expires": "January 01"
+	},
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "20% Off Boots For The Family",
+  "location": "online",
+  "type": "code",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 961,
+  "expires": "October 31"
 	}
 ]
