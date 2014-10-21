@@ -35,7 +35,7 @@ angular
       })
       .when('/design3',{
         templateUrl: 'views/contextual.html',
-        controller: 'MainCtrl'
+        controller: 'ContextualCtrl'
       })
       .when('/debug',{
         templateUrl: 'views/main.html',

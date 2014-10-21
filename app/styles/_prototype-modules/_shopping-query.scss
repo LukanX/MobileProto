@@ -12,7 +12,15 @@
   opacity: 1;
   max-height: 162px;
   transition: max-height .5s, opacity .5s .1s;
-  li a{
+  input[type=radio]{
+    position: absolute;
+    left: -9999px;
+    &:checked + li label{
+      background: $lightest-purple;
+      color: white;
+    }
+  }
+  li label {
     color: $dark-purple;
     width: 100%;
     height: 100%;

@@ -15,3 +15,10 @@ mobileProtoServices.factory('Deals', ['$resource',
       query: {method:'GET', isArray:true}
     });
   }]);
+
+mobileProtoServices.factory('Favorites', ['$resource',
+  function($resource){
+    return $resource('json/deals.json', {}, {
+      query: {method:'GET', isArray:true}
+    });
+  }]);

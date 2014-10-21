@@ -1,0 +1,97 @@
+<section class="shopping-query">
+  <div class="container padded-container">
+    <h1 class="centered h1 sans-serif">Where are you shopping today?</h1>
+    <ul class="shopping-locations grid-row-col-1" ng-hide="isShoppingQueryHidden" >
+      <input type="radio" name="shopping-group" id="in-store" value="in-store" ng-model="whereShopping" ng-click="isShoppingQueryHidden = true; showNearby = true">
+      <li class="grid-unit centered"><label for="in-store">in store now</label></li>
+      <input type="radio" name="shopping-group" id="online" value="online" ng-model="whereShopping" ng-click="isShoppingQueryHidden = true; showNearby = false">
+      <li class="grid-unit centered"><label for="online">online</label></li>
+      <input type="radio" name="shopping-group" id="prepare" value="" ng-model="whereShopping" ng-click="isShoppingQueryHidden = true; showNearby = true">
+      <li class="grid-unit centered"><label for="prepare">preparing to shop</label></li>
+    </ul>
+  </div>
+  <div class="toggle-content centered" ng-click="isShoppingQueryHidden = !isShoppingQueryHidden" ng-hide="isShoppingQueryHidden">Hide <span>&#9650;</span></div>
+  <div class="toggle-content centered" ng-click="isShoppingQueryHidden = !isShoppingQueryHidden" ng-show="isShoppingQueryHidden">Edit <span>&#x25BC;</span></div>
+</section>
+
+<section class="carousel" ng-controller = "CarouselCtrl">
+  <ul class="image deal-carousel" rn-carousel rn-carousel-index="deals">
+    <li ng-repeat="deal in carouselDeals">
+      <!-- <div class="carousel-content" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
+        <div class="gradient"></div>
+        
+        <div class="deal-info-area clearfix">
+          <div class="logo-wrapper">
+            <div class="brand-logo">
+              <img ng-src="{{deal.logo}}" alt="">
+            </div>
+          </div>
+
+          <div class="deal-details">
+            <h2 class="h4 sans-serif">{{deal.offer}}</h3>
+            <p>{{deal.brand}} {{deal.location}} Offer</p>
+          </div>
+        </div>
+      </div> -->
+      
+      <div class="carousel-content" ng-style="{ 'background-image': 'url(' + deal.bgImage + ')' }">
+        <div class="gradient"></div>
+
+        <div class="deal-info-area clearfix">
+          <div class="logo-wrapper">
+            <div class="brand-logo">
+              <img ng-src="{{deal.logo}}" alt="">
+            </div>
+          </div>
+
+          <div class="deal-details">
+            <h2 class="h4 sans-serif">{{deal.offer}}</h3>
+            <p>{{deal.brand}} {{deal.location}} Offer</p>
+          </div>
+        </div>
+
+      </div>
+
+      
+    </li>
+  </ul>
+  <div rn-carousel-indicators ng-if="carouselDeals.length > 1" slides="carouselDeals" rn-carousel-index="deals"></div>
+</section>
+
+<section class="deal-section padded gray" id="popular" ng-controller="DealsCtrl">
+  <div class="container">
+    <h1 class="h1 sans-serif">Popular Top Deals</h1>
+    <h4 class="h4 sans-serif minor">Based on other RetailMeNot users</h4>
+
+    <!-- DEAL CODE -->
+    <ul class="deals grid-row-col-1">
+      <li class="clearfix grid-unit" ng-repeat="deal in popularDeals = (deals | filter: {location:whereShopping})">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
+        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img ng-src="{{deal.logo}}" alt="">
+          </div>
+        </div>
+        <div class="deal-details">
+          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
+            <span ng-switch-when="code">Coupon Code</span>
+            <span ng-switch-when="print">Printable Coupon</span>
+            <span ng-switch-when="sale">Sale</span>
+          </div>
+          <div class="deal-info-area small-header">
+            <span>{{deal.merchant}} -</span> {{deal.offer}}
+          </div>
+          <div class="expiration">
+            Ends {{deal.expires}}
+          </div>
+          <div class="popularity">
+            {{deal.numberUsed}} People Used Today
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+    <div class="view-more" ng-click="popularLimit = popularLimit+4" ng-hide="popularLimit > popularDeals.length">View More</div>
+  </div>
+</section>
