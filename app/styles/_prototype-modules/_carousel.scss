@@ -1,6 +1,11 @@
 ul[rn-carousel]{
   -ms-touch-action: pan-y;
   touch-action: pan-y;
+  li{
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+
+  }
 }
 
 
