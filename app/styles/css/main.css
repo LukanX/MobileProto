@@ -1589,7 +1589,7 @@ ul[rn-carousel].wide-favorite .favorite-icon-container {
   width: 30%;
   float: right;
   text-align: right;
-  padding-left: 2em;
+  padding-left: 1.5em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003137}}
 ul[rn-carousel].wide-favorite .favorite-icon-container img {
