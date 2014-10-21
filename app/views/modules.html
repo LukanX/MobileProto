@@ -31,7 +31,7 @@
   <div rn-carousel-indicators ng-if="carouselDeals.length > 1" slides="carouselDeals" rn-carousel-index="deals"></div>
 </section>
 
-<section class="carousel favoriting toppadded off-white" ng-controller="CarouselCtrl">
+<section class="carousel favoriting top-padded off-white" ng-controller="CarouselCtrl">
   <div class="container">
     <h1 class="h1 sans-serif centered">Fave More, Save More</h1>
     <h4 class="h4 sans-serif minor centered">Favoriting more stores saves you more
@@ -78,42 +78,8 @@ cash and makes this page even better!</h4>
 </section>
 
 <section class="deal-section padded gray" id="popular" ng-controller="DealsCtrl">
-  <div class="container">
-    <h1 class="h1 sans-serif">Popular Top Deals</h1>
-    <h4 class="h4 sans-serif minor">Based on other RetailMeNot users</h4>
 
-    <!-- DEAL CODE -->
-    <ul class="deals grid-row-col-1">
-      <li class="clearfix grid-unit" ng-repeat="deal in popularDeals = (deals | filter: {popular:true} | limitTo: viewLimit)">
-        <a href="http://m.retailmenot.com/showcoupon/6270822">
-        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
-        <div class="logo-wrapper">
-          <div class="brand-logo">
-            <img ng-src="{{deal.logo}}" alt="">
-          </div>
-        </div>
-        <div class="deal-details">
-          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
-            <span ng-switch-when="code">Coupon Code</span>
-            <span ng-switch-when="print">Printable Coupon</span>
-            <span ng-switch-when="sale">Sale</span>
-          </div>
-          <div class="deal-info-area small-header">
-            <span>{{deal.merchant}} -</span> {{deal.offer}}
-          </div>
-          <div class="expiration">
-            Ends {{deal.expires}}
-          </div>
-          <div class="popularity">
-            {{deal.numberUsed}} People Used Today
-          </div>
-        </div>
-        </a>
-      </li>
-    </ul>
-    <div class="view-more" ng-click="viewLimit = viewLimit+4" ng-hide="viewLimit > popularDeals.length">View More</div>
-
-    <div class="value-prop double">
+  <div class="value-prop double" ng-click="locationEnabled = true" ng-hide="locationEnabled">
       <img src="images/location-prop.svg" alt="">
       <!-- Removed old code and repplaced with image because I couldn't get centering to work and didn't have time to fix it -->
       <!-- <div class="top clearfix">
@@ -144,10 +110,81 @@ cash and makes this page even better!</h4>
       <div class="or-circle">OR</div>
     </div> -->
   </div>
+
+  <div class="container" ng-show="locationEnabled">
+    <h1 class="h1 sans-serif">Deals Near You</h1>
+    <h4 class="h4 sans-serif minor">Based on your current location</h4>
+
+    <!-- DEAL CODE -->
+    <ul class="deals grid-row-col-1">
+      <li class="clearfix grid-unit" ng-repeat="deal in nearbyDeals = (deals | filter: {nearby:true} | limitTo: nearbyLimit)">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
+        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img ng-src="{{deal.logo}}" alt="">
+          </div>
+        </div>
+        <div class="deal-details">
+          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
+            <span ng-switch-when="code">Coupon Code</span>
+            <span ng-switch-when="print">Printable Coupon</span>
+            <span ng-switch-when="sale">Sale</span>
+          </div>
+          <div class="deal-info-area small-header">
+            <span>{{deal.merchant}} -</span> {{deal.offer}}
+          </div>
+          <div class="expiration">
+            Ends {{deal.expires}}
+          </div>
+          <div class="popularity">
+            {{deal.numberUsed}} People Used Today
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+    <div class="view-more" ng-click="nearbyLimit = nearbyLimit+4" ng-hide="nearbyLimit > nearbyDeals.length">View More</div>
+  </div>
+
+  <div class="container">
+    <h1 class="h1 sans-serif">Popular Top Deals</h1>
+    <h4 class="h4 sans-serif minor">Based on other RetailMeNot users</h4>
+
+    <!-- DEAL CODE -->
+    <ul class="deals grid-row-col-1">
+      <li class="clearfix grid-unit" ng-repeat="deal in popularDeals = (deals | filter: {popular:true} | limitTo: popularLimit)">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
+        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img ng-src="{{deal.logo}}" alt="">
+          </div>
+        </div>
+        <div class="deal-details">
+          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
+            <span ng-switch-when="code">Coupon Code</span>
+            <span ng-switch-when="print">Printable Coupon</span>
+            <span ng-switch-when="sale">Sale</span>
+          </div>
+          <div class="deal-info-area small-header">
+            <span>{{deal.merchant}} -</span> {{deal.offer}}
+          </div>
+          <div class="expiration">
+            Ends {{deal.expires}}
+          </div>
+          <div class="popularity">
+            {{deal.numberUsed}} People Used Today
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+    <div class="view-more" ng-click="popularLimit = popularLimit+4" ng-hide="popularLimit > popularDeals.length">View More</div>
   
 </section>
 
-<section class="padded gray">
+<section class="padded off-white">
   <div class="container">
     <div class="value-prop clearfix">
       <div class="icon-area">

@@ -27,7 +27,7 @@ angular
       })
       .when('/design1',{
         templateUrl: 'views/modules.html',
-        controller: 'MainCtrl'
+        controller: 'ModulesCtrl'
       })
       .when('/design2',{
         templateUrl: 'views/infinite.html',
