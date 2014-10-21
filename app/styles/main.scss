@@ -29,6 +29,9 @@ section{
     padding-top: 2em;
     padding-bottom: 2em;
   }
+  &.top-padded{
+    padding-top: 2em;
+  }
   &.gray{
     background: $lightest-gray;
   }

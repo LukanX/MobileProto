@@ -72,6 +72,30 @@ div.rn-carousel-indicator{
   }
 }
 
+.rn-carousel-control{
+  top: 25%;
+  &.rn-carousel-control-next{
+    right: .5em;
+    &:before{
+      display: inline-block;
+      -webkit-transform: scaleY(3);
+      -ms-transform: scaleY(3);
+      -o-transform: scaleY(3);
+      transform: scaleY(3);
+    }
+  }
+  &.rn-carousel-control-prev{
+    left: .5em;
+    &:before{
+      display: inline-block;
+      -webkit-transform: scaleY(3);
+      -ms-transform: scaleY(3);
+      -o-transform: scaleY(3);
+      transform: scaleY(3);
+    }
+  }
+}
+
 
 // WIDE CAROUSEL
 
@@ -82,6 +106,7 @@ ul[rn-carousel].wide-favorite{
   @include maintain-ratio(16 7);
   li{
     width: 100%;
+    padding: 1em 3em;
   }
   .wide-favorite-card{
     width: 100%;
