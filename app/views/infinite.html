@@ -32,7 +32,7 @@
     <h4 class="h4 sans-serif minor">Based on your favorites and history</h4>
 
     <!-- DEAL CODE -->
-    <ul class="deals grid-row-col-1">
+    <ul class="deals grid-row-col-1" infinite-scroll="incrementLimit()" infinite-scroll-distance="1">
       <li class="clearfix grid-unit" ng-repeat="deal in infinite | limitTo: infiniteLimit">
         <a href="http://m.retailmenot.com/showcoupon/6270822">
         <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->

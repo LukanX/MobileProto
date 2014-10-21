@@ -18,6 +18,7 @@ angular
     'ngSanitize',
     'angular-carousel',
     'ngTouch',
+    'infinite-scroll',
   ])
   .config(function ($routeProvider) {
     $routeProvider
