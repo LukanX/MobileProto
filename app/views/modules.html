@@ -1,9 +1,4 @@
-<section class="carousel  deal-carousel gray" ng-controller = "CarouselCtrl">
-  <div class="container">
-    <h1 class="mobile-header h1 sans-serif">Top Deals</h1>
-    <h4 class="mobile sub-header h4 sans-serif minor">Coupons for you based on popularity, location, and your preferences</h4>
-  </div>
-  
+<section class="carousel gray" ng-controller = "CarouselCtrl">
   <ul class="image deal-carousel" rn-carousel rn-carousel-index="deals">
     <li ng-repeat="deal in carouselDeals">
       
@@ -154,7 +149,7 @@ cash and makes this page even better!</h4>
 
     <!-- DEAL CODE -->
     <ul class="deals grid-row-col-1">
-      <li class="clearfix grid-unit" ng-repeat="deal in nearbyDeals = (deals | filter: {nearby:true} | limitTo: nearbyLimit)">
+      <li class="clearfix grid-unit" ng-repeat="deal in nearbyDeals = (deals | filter: {nearby:true} | limitTo: nearbyLimit | orderBy: 'distance')">
         <a href="http://m.retailmenot.com/showcoupon/6270822">
         <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
         <div class="logo-wrapper">
