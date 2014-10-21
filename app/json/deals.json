@@ -19,7 +19,7 @@
 		"type": "code",
 		"favorite": false,
 		"popular": true,
-		"nearby": true,
+		"nearby": false,
 		"numberUsed": 138,
 		"expires": "November 02",
 		"distance": 1.2

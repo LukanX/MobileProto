@@ -5,7 +5,10 @@
 @import "../bower_components/angular-carousel/src/css/angular-carousel";
 @import "prototype-modules";
 
-
+.homepage li{
+  font-size: 20px;
+  padding: 1em;
+}
 // UTILITIES
 .fixed{
   position: fixed;
