@@ -37,6 +37,19 @@
 		"expires": "October 31"
 	},
 	{
+  "merchant": "Loft",
+  "logo": "images/merchant/loft-logo.jpg",
+  "offer": "Extra 40% Off Sale Styles",
+  "location": "in-store & online",
+  "type": "sale",
+  "favorite": false,
+  "popular": false,
+  "nearby": true,
+  "numberUsed": 125,
+   "distance": 1.5,
+   "expires": ""
+	},
+	{
 		"merchant": "Target",
 		"logo": "images/merchant/target-logo.jpg",
 		"offer": "$5 Off $50 Select Items + Free Shipping On Select Orders of $50",
@@ -63,16 +76,30 @@
 		"distance": 0.6
 	},
 	{
-		"merchant": "Toshiba",
-		"logo": "images/merchant/toshiba-logo.png",
-		"offer": "Extra 10% Off $600+ Laptops",
-		"location": "online",
-		"type": "code",
-		"favorite": false,
-		"popular": false,
-		"nearby": false,
-		"numberUsed": 98,
-		"expires": "October 28"
+  "merchant": "Banana Republic",
+  "logo": "images/merchant/bananarepublic-logo.jpg",
+  "offer": "10% Off Storewide For Cardholders",
+  "location": "in-store",
+  "type": "print",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 126,
+   "distance": 1.3,
+   "expires": "October 31"
+	},
+	{
+  "merchant": "Target",
+  "logo": "images/merchant/target-logo.jpg",
+  "offer": "$3 Off $15 Men’s Apparel Purchase",
+  "location": "in-store",
+  "type": "print",
+  "favorite": false,
+  "popular": false,
+  "nearby": true,
+  "numberUsed": 147,
+  "distance": 2.2,
+  "expires": "November 08"
 	},
 	{
   "merchant": "Amazon",
