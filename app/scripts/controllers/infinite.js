@@ -8,7 +8,7 @@
  * Controller of the mobileProtoApp
  */
 angular.module('mobileProtoApp')
-  .controller('DealsCtrl', ['$scope','Deals',
-   function ($scope, Deals) {
-    $scope.deals = Deals.query();
+  .controller('InfiniteCtrl', ['$scope','Infinite',
+   function ($scope, Infinite) {
+    $scope.infinite = Infinite.query();
   }]);

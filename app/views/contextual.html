@@ -58,6 +58,50 @@
   <div rn-carousel-indicators ng-if="carouselDeals.length > 1" slides="carouselDeals" rn-carousel-index="deals"></div>
 </section>
 
+<section class="deal-section padded gray" id="popular" ng-controller="FavoritesCtrl">
+  <div class="container">
+    <h1 class="h1 sans-serif" ng-switch on="whereShopping">Your Top
+      <span ng-switch-when="o">In-Store &amp; Online</span>
+      <span ng-switch-when="">In-Store &amp; Online</span>
+      <span ng-switch-when="online">Online</span>
+      <span ng-switch-when="in-store">In-Store</span>
+      Deals
+    </h1>
+    <h4 class="h4 sans-serif minor">Based on your favorites and history</h4>
+
+    <!-- DEAL CODE -->
+    <ul class="deals grid-row-col-1">
+      <li class="clearfix grid-unit" ng-repeat="deal in favorites | limitTo: favoriteLimit">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
+        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img ng-src="{{deal.logo}}" alt="">
+          </div>
+        </div>
+        <div class="deal-details">
+          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
+            <span ng-switch-when="code">Coupon Code</span>
+            <span ng-switch-when="print">Printable Coupon</span>
+            <span ng-switch-when="sale">Sale</span>
+          </div>
+          <div class="deal-info-area small-header">
+            <span>{{deal.merchant}} -</span> {{deal.offer}}
+          </div>
+          <div class="expiration">
+            Ends {{deal.expires}}
+          </div>
+          <div class="popularity">
+            {{deal.numberUsed}} People Used Today
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+    <div class="view-more" ng-click="favoriteLimit = favoriteLimit+4" ng-hide="favoriteLimit > favorites.length">View More</div>
+  </div>
+</section>
+
 <section class="deal-section padded gray" id="popular" ng-controller="DealsCtrl">
   <div class="container">
     <h1 class="h1 sans-serif">Popular Top Deals</h1>

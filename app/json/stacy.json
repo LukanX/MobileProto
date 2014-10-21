@@ -1,0 +1,39 @@
+[
+	{
+		"merchant": "newegg",
+		"logo": "images/merchant/newegg-logo.jpg",
+		"offer": "10% Off Desktops and More",
+		"location": "online",
+		"type": "sale",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 267,
+		"expires": "October 31"
+	},
+	{
+		"merchant": "Finish Line",
+		"logo": "images/merchant/finishline-logo.jpg",
+		"offer": "20% Off Select Running Shoes",
+		"location": "in-store",
+		"type": "print",
+		"favorite": false,
+		"popular": true,
+		"nearby": true,
+		"numberUsed": 102,
+		"expires": "November 14",
+		"distance": 0.6
+	},
+	{
+		"merchant": "Toshiba",
+		"logo": "images/merchant/toshiba-logo.png",
+		"offer": "Extra 10% Off $600+ Laptops",
+		"location": "online",
+		"type": "code",
+		"favorite": false,
+		"popular": false,
+		"nearby": false,
+		"numberUsed": 98,
+		"expires": "October 28"
+	}
+]

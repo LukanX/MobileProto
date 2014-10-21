@@ -31,7 +31,7 @@ angular
       })
       .when('/design2',{
         templateUrl: 'views/infinite.html',
-        controller: 'MainCtrl'
+        controller: 'InfiniteCtrl'
       })
       .when('/design3',{
         templateUrl: 'views/contextual.html',
