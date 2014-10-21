@@ -10,8 +10,8 @@
 angular.module('mobileProtoApp')
   .controller('ContextualCtrl', function ($scope) {
     $scope.popularLimit = 4;
-    $scope.nearbyLimit = 4;
-    $scope.favoriteLimit = 7;
+    $scope.nearbyLimit = 7;
+    $scope.favoriteLimit = 4;
     $scope.whereShopping = 'o';
     $scope.isShoppingQueryHidden = false;
     $scope.showNearby = true;

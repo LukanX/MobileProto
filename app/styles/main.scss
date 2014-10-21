@@ -32,6 +32,9 @@ section{
   &.top-padded{
     padding-top: 2em;
   }
+  &.bottom-padded{
+    padding-bottom: 2em;
+  }
   &.gray{
     background: $lightest-gray;
   }

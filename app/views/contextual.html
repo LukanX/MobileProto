@@ -102,14 +102,120 @@
   </div>
 </section>
 
+<section class="carousel favoriting padded off-white" ng-controller="CarouselCtrl">
+  <div class="container">
+    <h1 class="h1 sans-serif centered">Fave More, Save More</h1>
+    <h4 class="h4 sans-serif minor centered">Favoriting more stores saves you more
+cash and makes this page even better!</h4>
+  </div>
+
+  <div class="container">
+    <ul class="image tall-favorite" rn-carousel>
+      <li ng-repeat="deal in carouselDeals">
+        <div class="merchant-wrapper">
+          <div class="merchant-top" ng-style="{ 'background-image': 'url(' + deal.logo + ')' }">
+            <div class="merchant-name centered">{{deal.brand}}</div>
+          </div>
+          <div class="merchant-bottom clearfix">
+            <div class="divider x">
+              <img src="images/gray-x.svg" alt="">
+            </div>
+            <div class="divider favorite" ng-click="isHeartActive = !isHeartActive; favorited = true">
+              <img ng-hide="isHeartActive" src="images/white-heart.svg" alt="">
+              <img ng-show="isHeartActive" src="images/red-heart.svg" alt="">
+            </div>
+          </div>
+          <div class="signup-overlay" ng-show="!signedUp && favorited">
+            <div class="signup-top">
+              <div class="x-out" ng-click="signedUp = true"><img src="images/gray-x.svg" alt=""></div>
+              <div class="signup-text">
+                <div class="small-header"><strong>Just so you know</strong></div>
+                <div>These are only temporary until you're a member</div>
+              </div>
+            </div>
+            <div class="signup-bottom clearfix">
+              <div class="divider" ng-click="signedUp = true">Sign In</div>
+              <div class="divider primary" ng-click="signedUp = true">Sign Up</div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+    
+  </div>
+</section>
+
+<section class="deal-section padded gray" id="nearby" ng-controller="DealsCtrl" >
+  <div class="container" ng-show="showNearby">
+    <h1 class="h1 sans-serif">Deals Near You</h1>
+    <h4 class="h4 sans-serif minor">Based on your current location</h4>
+
+    <!-- DEAL CODE -->
+    <ul class="deals grid-row-col-1">
+      <li class="clearfix grid-unit" ng-repeat="deal in nearbyDeals = (deals | filter: {nearby:true} | limitTo: nearbyLimit | orderBy: 'distance')">
+        <a href="http://m.retailmenot.com/showcoupon/6270822">
+        <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
+        <div class="logo-wrapper">
+          <div class="brand-logo">
+            <img ng-src="{{deal.logo}}" alt="">
+          </div>
+          <div class="distance">{{deal.distance}} mi</div>
+        </div>
+        <div class="deal-details">
+          <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
+            <span ng-switch-when="code">Coupon Code</span>
+            <span ng-switch-when="print">Printable Coupon</span>
+            <span ng-switch-when="sale">Sale</span>
+          </div>
+          <div class="deal-info-area small-header">
+            <span>{{deal.merchant}} -</span> {{deal.offer}}
+          </div>
+          <div class="expiration" ng-hide="!deal.expires">
+            Ends {{deal.expires}}
+          </div>
+          <div class="popularity">
+            {{deal.numberUsed}} People Used Today
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+    <div class="view-more" ng-click="nearbyLimit = nearbyLimit+4" ng-hide="nearbyLimit > nearbyDeals.length">View More</div>
+  </div>
+</section>
+
+<section class="padded off-white">
+  <div class="container">
+    <div class="value-prop clearfix">
+      <div class="icon-area">
+        <img src="images/phone-outline.svg" alt="">
+      </div>
+      <div class="text-area">
+        <div class="small-header">Download our FREE app!</div>
+        <div class="small-sub-header">Get notified about nearby offers</div>
+      </div>
+      <div class="chevron">
+        <img src="images/chevron.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="deal-section padded gray" id="popular" ng-controller="DealsCtrl">
   <div class="container">
-    <h1 class="h1 sans-serif">Popular Top Deals</h1>
+    <h1 class="h1 sans-serif" ng-switch on="whereShopping">Popular 
+      <span ng-switch-when="o">In-Store &amp; Online</span>
+      <span ng-switch-when="">In-Store &amp; Online</span>
+      <span ng-switch-when="online">Online</span>
+      <span ng-switch-when="in-store">In-Store</span> 
+      Deals
+    </h1>
     <h4 class="h4 sans-serif minor">Based on other RetailMeNot users</h4>
 
     <!-- DEAL CODE -->
     <ul class="deals grid-row-col-1">
-      <li class="clearfix grid-unit" ng-repeat="deal in popularDeals = (deals | filter: {location:whereShopping})">
+      <li class="clearfix grid-unit" ng-repeat="deal in popularDeals = (deals | filter: {location:whereShopping} | limitTo: popularLimit)">
         <a href="http://m.retailmenot.com/showcoupon/6270822">
         <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
         <div class="logo-wrapper">
@@ -137,5 +243,22 @@
       </li>
     </ul>
     <div class="view-more" ng-click="popularLimit = popularLimit+4" ng-hide="popularLimit > popularDeals.length">View More</div>
+  </div>
+</section>
+
+<section class="padded off-white">
+  <div class="container">
+    <div class="value-prop clearfix">
+      <div class="icon-area">
+        <img src="images/coffee-cup.svg" alt="">
+      </div>
+      <div class="text-area">
+        <div class="small-header">Still looking for deals?</div>
+        <div class="small-sub-header">Try browsing our categories page</div>
+      </div>
+      <div class="chevron">
+        <img src="images/chevron.svg" alt="">
+      </div>
+    </div>
   </div>
 </section>
