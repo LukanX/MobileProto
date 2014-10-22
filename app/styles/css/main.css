@@ -1598,7 +1598,7 @@ ul[rn-carousel].wide-favorite .signup-overlay {
   background: #ffffff;
   top: 0%;
   left: 0;
-  transition: top .5s;
+  transition: top .5s .5s;
   z-index: 5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lcookson\/Dev\/mobile-proto\/app\/styles\/_prototype-modules\/_carousel\.scss}line{font-family:\00003139}}

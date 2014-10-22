@@ -134,7 +134,7 @@ ul[rn-carousel].wide-favorite{
     background: $white;
     top:0%;
     left:0;
-    transition: top .5s;
+    transition: top .5s .5s;
     z-index: 5;
     &.ng-hide{
       top: 101%;
