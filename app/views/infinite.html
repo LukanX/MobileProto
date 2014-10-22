@@ -161,20 +161,21 @@ cash and makes this page even better!</h4>
   </div>
 </section>
 
-<section class="deal-section padded gray" id="favorites" ng-controller="FavoritesCtrl">
+<section class="deal-section padded gray" id="nearby" ng-controller="DealsCtrl" >
   <div class="container">
-    <h1 class="h1 sans-serif">Even More Top Deals</h1>
-    <h4 class="h4 sans-serif minor">Based on your favorites and history</h4>
+    <h1 class="h1 sans-serif">Deals Near You</h1>
+    <h4 class="h4 sans-serif minor">Based on your current location</h4>
 
     <!-- DEAL CODE -->
     <ul class="deals grid-row-col-1">
-      <li class="clearfix grid-unit" ng-repeat="deal in favorites | limitTo: 12 | limitTo: -4">
+      <li class="clearfix grid-unit" ng-repeat="deal in nearbyDeals = (deals | filter: {nearby:true} | limitTo: nearbyLimit | orderBy: 'distance')">
         <a href="http://m.retailmenot.com/showcoupon/6270822" target="_blank">
         <!-- "deal in bestDeals = (deals | filter: typeFilter | filter: {best:true})" -->
         <div class="logo-wrapper">
           <div class="brand-logo">
             <img ng-src="{{deal.logo}}" alt="">
           </div>
+          <div class="distance">{{deal.distance}} mi</div>
         </div>
         <div class="deal-details">
           <div class="deal-type {{deal.type}}" ng-switch on="deal.type">
