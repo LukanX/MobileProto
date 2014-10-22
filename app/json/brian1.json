@@ -1,0 +1,98 @@
+[
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "Free Shipping Over $35 On Select Items Sold & Shipped By Amazon",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1988,
+  "expires": ""
+	},
+  {
+  "merchant": "Sears",
+  "logo": "images/merchant/sears-logo.jpg",
+  "offer": "$35 Off $300 Sitewide",
+  "location": "In-Store",
+  "type": "print", 
+  "popular": true,
+  "nearby": true,
+  "numberUsed": 988,
+  "distance": 2.9,
+   "expires": "December 31"
+  },
+  {
+  "merchant": "Dicks Sporting Goods",
+  "logo": "images/merchant/dicks-logo.jpg",
+  "offer": "Up to 45% Off Men's Outerwear Clearance",
+  "location": "in-store & online",
+  "type": "sale",
+  "favorite": false,
+  "popular": false,
+  "nearby": false,
+  "numberUsed": 149,
+  "expires": ""
+  },
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "Fall Outlet Event: Up To 70% Off Thousands of Items",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 2414,
+  "expires": ""
+	},
+  {
+  "merchant": "Sears",
+  "logo": "images/merchant/sears-logo.jpg",
+  "offer": "Free shipping on $59+",
+  "location": "Online",
+  "type": "code", 
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 331,
+  "distance": 2.9,
+   "expires": "December 5"
+  },
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "20% Off Boots For The Family",
+  "location": "online",
+  "type": "code",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 961,
+  "expires": "October 31"
+	},
+  {
+  "merchant": "Dicks Sporting Goods",
+  "logo": "images/merchant/dicks-logo.jpg",
+  "offer": "20% Off Camo Clothing",
+  "location": "in-store & online",
+  "type": "sale",
+  "favorite": false,
+  "popular": false,
+  "nearby": false,
+  "numberUsed": 149,
+  "expires": ""
+  },
+  {
+  "merchant": "Sears",
+  "logo": "images/merchant/sears-logo.jpg",
+  "offer": "5% off any In-Store Purchase",
+  "location": "In-Store",
+  "type": "print",  
+  "popular": true,
+  "nearby": true,
+  "numberUsed": 721,
+  "distance": 2.9,
+   "expires": "October 22"
+  }
+]

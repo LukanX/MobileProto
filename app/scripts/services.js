@@ -18,7 +18,7 @@ mobileProtoServices.factory('Deals', ['$resource',
 
 mobileProtoServices.factory('Favorites', ['$resource',
   function($resource){
-    return $resource('json/amy.json', {}, {
+    return $resource('json/jennalee.json', {}, {
       query: {method:'GET', isArray:true}
     });
   }]);

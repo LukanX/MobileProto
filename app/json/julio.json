@@ -1,0 +1,86 @@
+[
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "Free Shipping Over $35 On Select Items Sold & Shipped By Amazon",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1988,
+  "expires": ""
+	},
+  {
+  "merchant": "eBay",
+  "logo": "images/merchant/ebay-logo.jpg",
+  "offer": "$2 Back on Paypal Purchases",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1498,
+  "expires": ""
+  },
+  {
+  "merchant": "WWE Shop",
+  "logo": "images/merchant/wwe-logo.jpg",
+  "offer": "10% Off Site-Wide",
+  "location": "online",
+  "type": "code",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 104,
+  "expires": ""
+  },
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "Fall Outlet Event: Up To 70% Off Thousands of Items",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 2414,
+  "expires": ""
+	},
+  {
+  "merchant": "eBay",
+  "logo": "images/merchant/ebay-logo.jpg",
+  "offer": "Up to 90% Off Electronics Deals + Free Shipping",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1498,
+  "expires": ""
+  },
+  {
+  "merchant": "Verizon Wireless",
+  "logo": "images/merchant/verizon-logo.jpg",
+  "offer": "Accessories Sale",
+  "location": "in-store & online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 257,
+  "expires": ""
+  },
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "20% Off Boots For The Family",
+  "location": "online",
+  "type": "code",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 961,
+  "expires": "October 31"
+	}
+]

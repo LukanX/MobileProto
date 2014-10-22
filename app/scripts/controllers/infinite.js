@@ -11,6 +11,7 @@ angular.module('mobileProtoApp')
   .controller('InfiniteCtrl', ['$scope','Infinite',
    function ($scope, Infinite) {
     $scope.infinite = Infinite.query();
+    $scope.locationEnabled = true;
     $scope.infiniteLimit = 10;
     $scope.nearbyLimit = 4;
     $scope.incrementLimit = function(){

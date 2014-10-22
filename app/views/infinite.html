@@ -144,9 +144,9 @@ cash and makes this page even better!</h4>
   </div>
 </section>
 
-<section class="gray">
+<section class="gray" ng-hide="locationEnabled">
   <div class="container">
-    <div class="value-prop clearfix">
+    <div class="value-prop clearfix" ng-click="locationEnabled = true">
       <div class="icon-area">
         <img src="images/map-marker.svg" alt="">
       </div>
@@ -161,7 +161,7 @@ cash and makes this page even better!</h4>
   </div>
 </section>
 
-<section class="deal-section padded gray" id="nearby" ng-controller="DealsCtrl" >
+<section class="deal-section bottom-padded gray" id="nearby" ng-controller="DealsCtrl" ng-show="locationEnabled">
   <div class="container">
     <h1 class="h1 sans-serif">Deals Near You</h1>
     <h4 class="h4 sans-serif minor">Based on your current location</h4>

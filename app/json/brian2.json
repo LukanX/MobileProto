@@ -1,0 +1,101 @@
+[
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "Free Shipping Over $35 On Select Items Sold & Shipped By Amazon",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1988,
+  "expires": ""
+	},
+	{
+		"merchant": "Target",
+		"logo": "images/merchant/target-logo.jpg",
+		"offer": "$5 Off $50 Select Items + Free Shipping On Select Orders of $50",
+		"location": "in-store & online",
+		"type": "sale",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 4220,
+		"distance": 0.6,
+		"expires": "November 14"
+	},
+  {
+  "merchant": "eBay",
+  "logo": "images/merchant/ebay-logo.jpg",
+  "offer": "$2 Back on Paypal Purchases",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1498,
+  "expires": ""
+  },
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "Fall Outlet Event: Up To 70% Off Thousands of Items",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 2414,
+  "expires": ""
+	},
+	{
+  "merchant": "Target",
+  "logo": "images/merchant/target-logo.jpg",
+  "offer": "$10 Off $50+ Home",
+  "location": "online",
+  "type": "code",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 2246,
+  "distance": 2.2,
+  "expires": "November 08"
+	},
+  {
+  "merchant": "eBay",
+  "logo": "images/merchant/ebay-logo.jpg",
+  "offer": "Up to 90% Off Electronics Deals + Free Shipping",
+  "location": "online",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1498,
+  "expires": ""
+  },
+	{
+  "merchant": "Target",
+  "logo": "images/merchant/target-logo.jpg",
+  "offer": "$5 Off %50+ Baby Products",
+  "location": "in-store & online code",
+  "type": "sale",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 691,
+  "distance": 2.2,
+  "expires": "January 01"
+	},
+	{
+  "merchant": "Amazon",
+  "logo": "images/merchant/amazon-logo.jpg",
+  "offer": "20% Off Boots For The Family",
+  "location": "online",
+  "type": "code",
+  "favorite": false,
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 961,
+  "expires": "October 31"
+	}
+]

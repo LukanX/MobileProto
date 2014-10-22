@@ -1,0 +1,110 @@
+[
+	{
+  "merchant": "Kohls",
+  "logo": "images/merchant/kohls-logo.jpg",
+  "offer": "20% Off Sitewide",
+  "location": "Online",
+  "type": "code",
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 6999,
+  "expires": "October 26"
+  },
+	{
+		"merchant": "Target",
+		"logo": "images/merchant/target-logo.jpg",
+		"offer": "$5 Off $50 Select Items + Free Shipping On Select Orders of $50",
+		"location": "in-store & online",
+		"type": "sale",
+		"favorite": false,
+		"popular": true,
+		"nearby": false,
+		"numberUsed": 4220,
+		"distance": 0.6,
+		"expires": "November 14"
+	},
+	{
+    "merchant": "Rite Aid",
+    "logo": "images/merchant/rite-aid-logo.jpg",
+    "offer": "Up To 50% Off Your Order",
+    "location": "in-store & online",
+    "type": "sale",
+    "popular": true,
+    "nearby": false,
+    "numberUsed": 1370,
+    "distance": 1.8,
+     "expires": "November 02"
+	},
+	{
+    "merchant": "Kohls",
+    "logo": "images/merchant/kohls-logo.jpg",
+    "offer": "15% Off No Min or 20% $100",
+    "location": "In-Store",
+    "type": "print",
+    "popular": true,
+    "nearby": true,
+    "numberUsed": 8165,
+    "distance": 2.4,
+    "expires": "October 26"
+  },
+	{
+    "merchant": "Target",
+    "logo": "images/merchant/target-logo.jpg",
+    "offer": "$10 Off $50+ Home",
+    "location": "online",
+    "type": "code",
+    "favorite": false,
+    "popular": true,
+    "nearby": false,
+    "numberUsed": 2246,
+    "distance": 2.2,
+    "expires": "November 08"
+	},
+	{
+    "merchant": "Kohls",
+    "logo": "images/merchant/kohls-logo.jpg",
+    "offer": "20% Off Sitewide",
+    "location": "Online",
+    "type": "code",
+    "popular": true,
+    "nearby": false,
+    "numberUsed": 6999,
+    "expires": "October 26"
+  },
+	{
+    "merchant": "Rite Aid",
+    "logo": "images/merchant/walmart-logo.jpg",
+    "offer": "25% Off Sitewide",
+    "location": "online",
+    "type": "sale",
+    "popular": true,
+    "nearby": false,
+    "numberUsed": 1868,
+    "expires": ""
+	},
+	{
+    "merchant": "Target",
+    "logo": "images/merchant/target-logo.jpg",
+    "offer": "$5 Off %50+ Baby Products",
+    "location": "in-store & online code",
+    "type": "sale",
+    "favorite": false,
+    "popular": true,
+    "nearby": false,
+    "numberUsed": 691,
+    "distance": 2.2,
+    "expires": "January 01"
+	},
+	{
+  "merchant": "Kohls",
+  "logo": "images/merchant/kohls-logo.jpg",
+  "offer": "$10 Off $30 Men’s Apparel",
+  "location": "In-Store",
+  "type": "print",
+  "popular": false,
+  "nearby": true,
+  "numberUsed": 442,
+  "distance": 2.4,
+   "expires": "October 26"
+  }
+]
