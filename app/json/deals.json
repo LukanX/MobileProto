@@ -102,6 +102,18 @@
   "expires": "November 08"
 	},
 	{
+  "merchant": "Walmart",
+  "logo": "images/merchant/walmart-logo.jpg",
+  "offer": "Free Lens Cloth and Cleaner",
+  "location": "in-store",
+  "type": "print",
+  "popular": false,
+  "nearby": true,
+  "numberUsed": 1370,
+  "distance": 1.8,
+   "expires": ""
+	},
+	{
   "merchant": "Amazon",
   "logo": "images/merchant/amazon-logo.jpg",
   "offer": "Fall Outlet Event: Up To 70% Off Thousands of Items",
@@ -124,6 +136,18 @@
 		"nearby": false,
 		"numberUsed": 21739,
 		"expires": "October 27"
+	},
+	{
+  "merchant": "Sears",
+  "logo": "images/merchant/sears-logo.jpg",
+  "offer": "$35 Off $300 Sitewide",
+  "location": "In-Store",
+  "type": "print", 
+  "popular": true,
+  "nearby": true,
+  "numberUsed": 988,
+  "distance": 2.9,
+   "expires": "December 31"
 	},
 	{
   "merchant": "Target",
