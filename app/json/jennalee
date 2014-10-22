@@ -24,9 +24,9 @@
 		"expires": "November 14"
 	},
 	{
-    "merchant": "Walmart",
-    "logo": "images/merchant/walmart-logo.jpg",
-    "offer": "Up To 60% Off The Walmart Value of The Day",
+    "merchant": "Rite Aid",
+    "logo": "images/merchant/rite-aid-logo.jpg",
+    "offer": "Up To 50% Off Your Order",
     "location": "in-store & online",
     "type": "sale",
     "popular": true,
@@ -46,17 +46,6 @@
     "numberUsed": 8165,
     "distance": 2.4,
     "expires": "October 26"
-  },
-  {
-    "merchant": "Old Navy",
-    "logo": "images/merchant/oldnavy-logo.jpg",
-    "offer": "30% Off Your Purchase",
-    "location": "online",
-    "type": "code",
-    "popular": true,
-    "nearby": false,
-    "numberUsed": 1868,
-     "expires": ""
   },
 	{
     "merchant": "Target",
@@ -83,9 +72,9 @@
     "expires": "October 26"
   },
 	{
-    "merchant": "Walmart",
+    "merchant": "Rite Aid",
     "logo": "images/merchant/walmart-logo.jpg",
-    "offer": "Up To 80% Off Electronic Clearance",
+    "offer": "25% Off Sitewide",
     "location": "online",
     "type": "sale",
     "popular": true,
@@ -93,17 +82,6 @@
     "numberUsed": 1868,
     "expires": ""
 	},
-   {
-    "merchant": "Old Navy",
-    "logo": "images/merchant/oldnavy-logo.jpg",
-    "offer": "Up to 60% Off Clearance",
-    "location": "online",
-    "type": "code",
-    "popular": true,
-    "nearby": false,
-    "numberUsed": 1868,
-     "expires": ""
-  },
 	{
     "merchant": "Target",
     "logo": "images/merchant/target-logo.jpg",
