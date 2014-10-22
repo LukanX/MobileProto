@@ -102,6 +102,18 @@
   "expires": "November 08"
 	},
 	{
+  "merchant": "Sears",
+  "logo": "images/merchant/sears-logo.jpg",
+  "offer": "5% off any In-Store Purchase",
+  "location": "In-Store",
+  "type": "print",
+  "popular": true,
+  "nearby": true,
+  "numberUsed": 721,
+  "distance": 2.9,
+   "expires": "October 22"
+	},
+	{
   "merchant": "Walmart",
   "logo": "images/merchant/walmart-logo.jpg",
   "offer": "Free Lens Cloth and Cleaner",
@@ -173,5 +185,16 @@
 		"nearby": false,
 		"numberUsed": 893,
 		"expires": "October 27"
-	}
+	},
+	{
+  "merchant": "Kohls",
+  "logo": "images/merchant/kohls.jpg",
+  "offer": "20% Off Sitewide",
+  "location": "Online",
+  "type": "code",
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 6999,
+   "expires": "October 26"
+  }
 ]
