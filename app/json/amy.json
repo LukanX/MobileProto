@@ -1,7 +1,7 @@
 [
 	{
   "merchant": "Kohls",
-  "logo": "images/merchant/kohls.jpg",
+  "logo": "images/merchant/kohls-logo.jpg",
   "offer": "20% Off Sitewide",
   "location": "Online",
   "type": "code",
@@ -37,7 +37,7 @@
 	},
 	{
   "merchant": "Kohls",
-  "logo": "images/merchant/kohls.jpg",
+  "logo": "images/merchant/kohls-logo.jpg",
   "offer": "15% Off No Min or 20% $100",
   "location": "In-Store",
   "type": "print",
@@ -62,7 +62,7 @@
 	},
 	{
   "merchant": "Kohls",
-  "logo": "images/merchant/kohls.jpg",
+  "logo": "images/merchant/kohls-logo.jpg",
   "offer": "20% Off Sitewide",
   "location": "Online",
   "type": "code",
@@ -97,7 +97,7 @@
 	},
 	{
   "merchant": "Kohls",
-  "logo": "images/merchant/kohls.jpg",
+  "logo": "images/merchant/kohls-logo.jpg",
   "offer": "$10 Off $30 Men’s Apparel",
   "location": "In-Store",
   "type": "print",

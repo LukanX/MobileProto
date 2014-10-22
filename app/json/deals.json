@@ -50,6 +50,18 @@
    "expires": ""
 	},
 	{
+  "merchant": "Sears",
+  "logo": "images/merchant/sears-logo.jpg",
+  "offer": "Extra 35% off Clothing for the Family + Free Shipping orders $59+",
+  "location": "In-Store",
+  "type": "sale",
+  "popular": false,
+  "nearby": true,
+  "numberUsed": 212,
+  "distance": 2.9,
+   "expires": "October 25"
+	},
+	{
 		"merchant": "Target",
 		"logo": "images/merchant/target-logo.jpg",
 		"offer": "$5 Off $50 Select Items + Free Shipping On Select Orders of $50",
@@ -87,6 +99,18 @@
   "numberUsed": 126,
    "distance": 1.3,
    "expires": "October 31"
+	},
+	{
+  "merchant": "Kohls",
+  "logo": "images/merchant/kohls-logo.jpg",
+  "offer": "15% Off No Min or 20% $100",
+  "location": "In-Store",
+  "type": "print",
+  "popular": true,
+  "nearby": true,
+  "numberUsed": 8165,
+  "distance": 2.4,
+   "expires": "October 26"
 	},
 	{
   "merchant": "Target",
@@ -150,6 +174,17 @@
 		"expires": "October 27"
 	},
 	{
+  "merchant": "Walmart",
+  "logo": "images/merchant/walmart-logo.jpg",
+  "offer": "Up To 80% Off Electronic Clearance",
+  "location": "online",
+  "type": "sale",
+  "popular": true,
+  "nearby": false,
+  "numberUsed": 1868,
+   "expires": ""
+	},
+	{
   "merchant": "Sears",
   "logo": "images/merchant/sears-logo.jpg",
   "offer": "$35 Off $300 Sitewide",
@@ -188,7 +223,7 @@
 	},
 	{
   "merchant": "Kohls",
-  "logo": "images/merchant/kohls.jpg",
+  "logo": "images/merchant/kohls-logo.jpg",
   "offer": "20% Off Sitewide",
   "location": "Online",
   "type": "code",
