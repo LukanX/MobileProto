@@ -124,6 +124,70 @@ ul[rn-carousel].wide-favorite{
     border: 1px solid $light-gray;
     background: $white;
     z-index: 5;
+    position: relative;
+    overflow: hidden;
+  }
+  .signup-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: $white;
+    top:0%;
+    left:0;
+    transition: top .5s;
+    z-index: 5;
+    &.ng-hide{
+      top: 101%;
+      display:block!important;
+    }
+    .signup-top{
+      width: 100%;
+      height: 70%;
+      border: 1px solid $light-gray;
+      border-bottom: none;
+      background-size: 25%;
+      position: relative;
+      .signup-text{
+        padding: 5% 2%;
+        width: 100%;
+        text-align: center;
+        line-height: 1em;
+        font-size: 14px;
+        .small-header{
+          font-size: 16px;
+          line-height: 1.4 em;
+          padding-bottom: .2em;
+        }
+      }
+      .x-out{
+        position: absolute;
+        top: .5em;
+        right: .5em;
+        width: 4%;
+        img{
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+    .signup-bottom{
+      width: 100%;
+      height: 30%;
+      border: 1px solid $blue;
+      .divider{
+        padding: 2.4% 2%;
+        width: 50%;
+        float: left;
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        color: $blue;
+        &.primary{
+          background: $blue;
+          color: white;
+        }
+      }
+    }
   }
   .deal-info-area{
   padding: $spacing;
