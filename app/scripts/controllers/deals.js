@@ -4,7 +4,7 @@
  * @ngdoc function
  * @name mobileProtoApp.controller:CarouselCtrl
  * @description
- * # MainCtrl
+ * # DealsCtrl
  * Controller of the mobileProtoApp
  */
 angular.module('mobileProtoApp')
